@@ -1,0 +1,62 @@
+gunstage
+--------
+
+🔫 `git unstage` as a service
+
+https://github.com/LucasLarson/gunstage/actions?query=workflow:"Lint+Code+Base"[image:https://img.shields.io/github/workflow/status/LucasLarson/gunstage/Lint%20Code%20Base?logo=GitHub&label=Super-Linter[GitHub Super-Linter]]
+https://github.com/LucasLarson/gunstage/blob/main/license.md[image:https://img.shields.io/badge/license-GPLP-blue[GPLP,title="GNU General Public License for Pedants"]]
+
+What
+~~~~
+A shell script for use as a command-line Git plugin for undoing `git add` or
+even parts of&nbsp;it. Too many staged&nbsp;files? Just `gunstage`&nbsp;them.
+
+The script was written in Zsh, for Zsh, but it ports well to the Korn shell,
+and and perfectly to&nbsp;Bash.
+
+If you don’t want to unstage everything, more granular control is available
+by adding those files as arguments, analogous the `gunstage` approach is
+available you can `gunstage` only specific&nbsp;files:
+`gunstage file1.txt file2.sh`
+
+Why
+~~~
+There is no `git unstage`&nbsp;command. While `git restore --staged` often
+performs the task, it’s neither reliable nor an obvious formula based on
+Git’s other&nbsp;commands.
+
+To unstage content in a Git repository&nbsp;– that is, to undo a
+`git add`&nbsp;– you must remember
+https://stackoverflow.com/q/58003030[which commands^] are still in use out of
+the _≥four_ I’m aware of having been&nbsp;recommended:
+
+1. `git reset HEAD`,
+1. `git reset HEAD --`,
+1. `git restore --staged`, and even
+1. `git rm --cached # ffs`.
+
+Next, you must be aware of repository&nbsp;context: if the branch is new and
+no commit has occurred yet, then `git restore --staged` won’t&nbsp;work.
+
+.Enter
+[source,zsh]
+-----------------
+gunstage # 🔫 git unstage as a service
+-----------------
+Its name is an abbreviation and portmanteau of `git unstage`; it arises from
+the Oh&nbsp;My&nbsp;Zsh alias I expected would exist and just&nbsp;work.
+
+How
+~~~
+Instead of keeping up with the latest incarnation of Git, whose `git restore`
+`man` page says the “command is experimental” and “the behavior may
+change”, in
+https://git-scm.com/docs/git-restore/2.28.0#_description[all capital letters^]
+no less, smart unstagers now have the option to leave the competing standards
+to us, the&nbsp;experts.
+
+Testing
+~~~~~~~
+I tested `gunstage` atop Zsh using Git&nbsp;2.28.0 on both
+macOS&nbsp;11.0&nbsp;beta and Alpine&nbsp;Linux&nbsp;3.11.2 on
+iSH&nbsp;1.0&nbsp;(74) on iOS&nbsp;14.0&nbsp;beta.
