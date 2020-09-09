@@ -132,10 +132,15 @@ excluded_words:
   # Zsh
   - MichaelAquilina
   - robbyrussell
+  - venv
+  - zcalc
   - zcompdump
   - zdharma
+  - zrecompile
+  - zsdoc
   - zshelldoc
   - Zunit
+  - zwc
 
 # Would you like filenames to also be spellchecked?
 spellcheck_filenames: false
