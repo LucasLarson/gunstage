@@ -60,6 +60,6 @@ gunstage () { # 🔫 `git unstage` as a service
             git init && # make a git repository if necessary \x5c
             git add file && # stage the file you just created \x5c
             gunstage file # huzzah.\n'
-    exit 1
+    return 1
   fi
 }
