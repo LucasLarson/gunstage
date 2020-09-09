@@ -143,4 +143,4 @@ excluded_words:
   - zwc
 
 # Would you like filenames to also be spellchecked?
-spellcheck_filenames: false
+spellcheck_filenames: true
