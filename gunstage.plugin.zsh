@@ -51,6 +51,11 @@ gunstage () { # 🔫 `git unstage` as a service
     fi
 
   else
+    # we’re not in a Git repository
+    # store the failed if as a return status
+    # https://github.com/ohmyzsh/ohmyzsh/pull/9238#discussion_r484806772
+    unstage=$?
+
     # if `gunstage` is called from outside a Git repository, provide
     # instructions to use it
     printf 'gunstage must be called from within a git repository\n'
@@ -63,6 +68,6 @@ gunstage () { # 🔫 `git unstage` as a service
             gunstage file # huzzah.\n\n
             gunstage # \xf0\x9f\x94\xab \x60git unstage\x60 as a service
             https://github.com/LucasLarson/gunstage\n\n'
-    return 1
+    return $unstage
   fi
 }
