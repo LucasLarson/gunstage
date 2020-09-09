@@ -32,13 +32,13 @@ excluded_words:
   - calibreapp
   - Crashlytics
   - ffs
-  - ibiqlik
+  - ibiqlik  # ibiqlik/action-yamllint
   - LucasLarson
   - Mackup
   - omz
-  - peter-evans
+  - peter-evans  # peter-evans/create-pull-request
   - rustup
-  - sobolevn
+  - sobolevn  # sobolevn/misspell-fixer-action
   - typoci
   - uncommenting
 
@@ -130,8 +130,8 @@ excluded_words:
   - xcworkspacedata
 
   # Zsh
-  - MichaelAquilina
-  - robbyrussell
+  - MichaelAquilina  # https://gitignore.io/api/zsh
+  - robbyrussell  # https://gitignore.io/api/zsh
   - venv
   - zcalc
   - zcompdump
