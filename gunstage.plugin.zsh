@@ -16,9 +16,6 @@
 #      license: GPLP 1.0 or later (GPL compatible)
 #
 
-set -euo pipefail
-IFS=$'\n\t'
-
 gunstage () { # 🔫 `git unstage` as a service
   # check whether we’re in a Git repository
   # https://stackoverflow.com/a/53809163
