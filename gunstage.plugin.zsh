@@ -21,12 +21,15 @@ gunstage () { # 🔫 `git unstage` as a service
   # https://stackoverflow.com/a/53809163
   if git rev-parse --is-inside-work-tree > /dev/null 2>&1; then
 
+    # unset variable we’re constructing
+    unstage="unset unstage"
+
     # check that this isn’t a new repository
     if git rev-parse HEAD > /dev/null 2>&1; then
-      unstage="git restore --staged --progress"
+      unstage="$unstage; git restore --staged --progress"
     else
       # if the repo is new, it requires different unstaging syntax
-      unstage="git rm --cached"
+      unstage="$unstage; git rm --cached"
     fi
 
     # check if `gunstage` was called with any arguments, which are
