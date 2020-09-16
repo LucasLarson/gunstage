@@ -68,6 +68,6 @@ gunstage () { # 🔫 `git unstage` as a service
             gunstage file # huzzah.\n\n
             gunstage # \xf0\x9f\x94\xab \x60git unstage\x60 as a service
             https://github.com/LucasLarson/gunstage\n\n'
-    return $unstage
+    return "$unstage"
   fi
 }
