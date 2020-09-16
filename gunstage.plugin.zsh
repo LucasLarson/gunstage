@@ -21,7 +21,7 @@ gunstage () { # 🔫 `git unstage` as a service
   # https://stackoverflow.com/a/53809163
   if git rev-parse --is-inside-work-tree > /dev/null 2>&1; then
 
-    # unset variable we’re constructing
+    # create a string that we’ll extend and execute below
     unstage="unset unstage"
 
     # check that this isn’t a new repository
