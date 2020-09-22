@@ -9,7 +9,8 @@ dictionaries:
   - en_GB
   - fr
 
-# Any files/folders we should ignore?
+
+# Files and folders to ignore
 excluded_files:
   - "esperanto/*"
   - "vendor/**/*"
@@ -26,32 +27,46 @@ excluded_files:
   - "Gemfile.lock"
   - ".typo-ci.yml"
 
-# Any typos we should ignore?
+
+# Known spellings to ignore
 excluded_words:
   - Biffle
   - calibreapp
   - Crashlytics
+  - csharp  # CodeQL Analysis
+  - cyberciti  # cyberciti.biz
   - ffs
   - ibiqlik  # ibiqlik/action-yamllint
   - LucasLarson
   - Mackup
-  - omz
+  - nixCraft  # Vivek Gite, cyberciti.biz
+  - omz  # ohmyzsh
   - peter-evans  # peter-evans/create-pull-request
   - rustup
   - sobolevn  # sobolevn/misspell-fixer-action
   - typoci
   - uncommenting
+  - VivekGite  # nixCraft, cyberciti.biz
 
   # AsciiDoc
   - adoc
 
+  # CSS
+  - webtv
+  - konqueror
+  - freebsd
+
   # Clang, GCC
+  - argc
+  - argv
   - cbp
   - climits
   - cstring
   - ctor
   - dtor
   - dylib
+  - envc
+  - envp
   - fcaret
   - fdiagnostics
   - fdiagnostics-fixit-info
@@ -90,6 +105,7 @@ excluded_words:
   # Git
   - gmv  # homemade alias to `git mv`
   - gunstage
+  - osxkeychain
   - unstage
   - unstagers
   - unstaging
@@ -142,5 +158,6 @@ excluded_words:
   - Zunit
   - zwc
 
-# Would you like filenames to also be spellchecked?
+
+# Filename spellchecking
 spellcheck_filenames: true

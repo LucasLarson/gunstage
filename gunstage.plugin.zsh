@@ -33,19 +33,14 @@ gunstage () { # 🔫 `git unstage` as a service
     fi
 
     # check if `gunstage` was called with any arguments, which are
-    # file names
+    # a string of file names
     if [ $# -gt 0 ]; then
 
-      # create an empty array for the file name arguments
-      arguments=()
-      for index in "$@"; do
-
-        # for each file name, one at a time, unstage it
-        # running a string as a command
-        # https://unix.stackexchange.com/q/356534#comment631887_356534
-        eval "$unstage" "${index[@]}"
-        arguments+=("$index")
-      done
+      # unstage all files named in the string and
+      # run the string as a command
+      # https://unix.stackexchange.com/q/356534#comment631887_356534
+      # https://github.com/koalaman/shellcheck/wiki/SC2145/c11a85d1d22030fbf846eee09a2dce1f896fa5ae#rationale
+      eval "$unstage $*"
 
     # if there were no gunstage arguments, we unstage everything in this
     # directory and below
