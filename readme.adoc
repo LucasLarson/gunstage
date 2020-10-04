@@ -28,10 +28,11 @@ Git’s other&nbsp;commands.
 To unstage content in a Git repository&nbsp;– that is, to undo a
 `git add`&nbsp;– you must remember
 https://stackoverflow.com/q/58003030[which commands^] are still in use out of
-the _≥four_ I’m aware of having been&nbsp;recommended:
+the five I’m aware of having been&nbsp;recommended:
 
 1. `git reset HEAD`,
 1. `git reset HEAD --`,
+1. `git reset --`,
 1. `git restore --staged`, and even
 1. `git rm --cached # ffs`.
 
