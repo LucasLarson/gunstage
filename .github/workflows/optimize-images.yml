@@ -11,6 +11,11 @@ on:
       - '**.png'
       - '**.webp'
       - '**.gif'
+      - '**.JPG'
+      - '**.JPEG'
+      - '**.PNG'
+      - '**.WEBP'
+      - '**.GIF'
 
 jobs:
 
