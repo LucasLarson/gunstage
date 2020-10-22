@@ -56,6 +56,12 @@ https://git-scm.com/docs/git-restore/2.28.0#_description[all capital letters^]
 no less, smart unstagers now have the option to leave the competing standards
 to us, the&nbsp;experts.
 
+Requirements
+~~~~~~~~~~~~
+* https://sourceforge.net/p/zsh/code/ci/master/tree/[Zsh^] (or https://github.com/att/ast[Ksh^]
+  (or https://git.savannah.gnu.org/cgit/bash.git/[Bash^])), and
+* https://github.com/git/git[Git^]
+
 Testing
 ~~~~~~~
 I tested `gunstage` atop Zsh using Git&nbsp;2.28.0 on both
