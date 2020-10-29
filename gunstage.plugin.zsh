@@ -44,9 +44,9 @@ gunstage () {( # 🔫 `git unstage` as a service
       # https://github.com/koalaman/shellcheck/wiki/SC2145/c11a85d1d22030fbf846eee09a2dce1f896fa5ae#rationale
       eval "$unstage $*"
 
-    # if there were no gunstage arguments, we unstage everything in this
-    # directory and below
     else
+      # if there were no arguments, we unstage everything in
+      # this directory and below
       eval "$unstage" .
     fi
 
