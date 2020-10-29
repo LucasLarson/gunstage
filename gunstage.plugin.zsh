@@ -16,7 +16,7 @@
 #      license: GPLP 1.0 or later (GPL compatible)
 #
 
-gunstage () { # 🔫 `git unstage` as a service
+gunstage () {( # 🔫 `git unstage` as a service
   # check whether we’re in a Git repository
   # https://stackoverflow.com/a/53809163
   if git rev-parse --is-inside-work-tree > /dev/null 2>&1; then
@@ -68,4 +68,4 @@ gunstage () { # 🔫 `git unstage` as a service
             https://github.com/LucasLarson/gunstage\n\n'
     return "$unstage"
   fi
-}
+)}
