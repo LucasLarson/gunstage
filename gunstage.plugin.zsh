@@ -33,7 +33,7 @@ gunstage () {( # 🔫 `git unstage` as a service
     fi
 
     # check if `gunstage` was called with any arguments, which are
-    # a string of file names
+    # a string of file names, or `.` or `*`
     if [ $# -gt 0 ]; then
 
       # unstage all files named in the string and
