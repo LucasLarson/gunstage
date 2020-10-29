@@ -37,13 +37,16 @@ excluded_words:
   - Crashlytics
   - csharp  # CodeQL Analysis
   - cyberciti  # cyberciti.biz
+  - esolang
   - ffs
   - guillaumealgis  # guillaumealgis/XcodeWarningsAsXcconfig
   - ibiqlik  # ibiqlik/action-yamllint
+  - imgbotconfig  # dabutvin/Imgbot
   - jonreid  # jonreid/XcodeWarnings
   - LucasLarson
   - Mackup
   - nixCraft  # Vivek Gite, cyberciti.biz
+  - noninfringement  # GNU General Public License
   - omz  # ohmyzsh
   - peter-evans  # peter-evans/create-pull-request
   - rustup
@@ -54,6 +57,7 @@ excluded_words:
 
   # AsciiDoc
   - adoc
+  - toclevels
 
   # CSS
   - webtv
@@ -97,9 +101,11 @@ excluded_words:
   - slo
   - smod
   - strnlen
+  - symvers  # github/gitignore@a080e36
   - unsequenced
   - Wcall
   - Wdefaulted
+  - webfont
   - Weffc
   - Wextra
   - Wmemset
@@ -108,10 +114,23 @@ excluded_words:
   - Wreturn
   - Wsizeof
 
+  # DeepSource
+  - gofmt
+  - isort
+  - standardjs
+  - standardrb
+
   # Git
+  - autocrlf
+  - gitconfig
   - gmv  # homemade alias to `git mv`
-  - gunstage
+  - gpgsign
+  - gunstage  # `🔫  `git unstage` as a service https://git.io/gunstage
+  - lfs
+  - lsi  # Jekyll’s latent semantic indexing
   - osxkeychain
+  - precompose
+  - textconv
   - unstage
   - unstagers
   - unstaging
@@ -124,6 +143,14 @@ excluded_words:
   - Otechie
   - sarif  # OSSAR
 
+  # Gitpod
+  - bastet  # gitpod-io/gitpod
+  - runtimes
+  - tetris
+
+  # Google
+  - gtag
+
   # JetBrains
   - iml
   - ipr
@@ -132,15 +159,39 @@ excluded_words:
   - replstate
   - sbt-idea
 
+  # Linux
+  - nfs  # github/gitignore@4f7062e
+
   # macOS
   - donotpresent
   - icns
+  - plutil
 
   # shell
   - euo
 
   # TextMate
   - tmbundle
+
+  # Visual Studio
+  # https://github.com/github/gitignore/blob/218a9/VisualStudio.gitignore
+  - aps
+  - ipch
+  - ncb
+  - ogs  # [Ll]ogs/
+  - opensdf
+  - scc
+  - sdf
+  - svclog
+  - tli
+
+  # Windows
+  # https://github.com/toptal/gitignore/blob/78659/templates/Windows.gitignore
+  - ekstop  # [Dd]esktop.ini
+  - lnk
+  - msix
+  - msm
+  - msp
 
   # Xcode
   - bcmp
@@ -179,4 +230,4 @@ excluded_words:
 
 
 # Filename spellchecking
-spellcheck_filenames: true
+spellcheck_filenames: false
