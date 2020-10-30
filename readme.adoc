@@ -10,62 +10,84 @@ General Public License for Pedants"]]
 
 What
 ~~~~
-A shell script for use as a command-line Git plugin for undoing `git add` or
-even parts of&nbsp;it. Too many staged&nbsp;files? Just `gunstage`&nbsp;them.
+There are at least eight ways to unstage files in a Git&nbsp;repository.
+Remembering which versions of Git support which syntax, under which
+circumstances, reduced my productivity enough to publish this software
+in&nbsp;response.
 
-The script was written in Zsh, for Zsh, but it ports well to the Korn shell,
-and and perfectly to&nbsp;Bash.
+This is a command-line shell plugin for undoing `git add`. Too many
+staged&nbsp;files? Can’t remember if it’s `git reset HEAD` or
+`git restore --staged -- `? Just remember&nbsp;`gunstage`.
 
-If you don’t want to unstage everything, more granular control is available
-by adding those files as arguments, analogous the `gunstage` approach is
-available you can `gunstage` only specific&nbsp;files:
-`gunstage file1.txt file2.sh`
+If you don’t want to unstage everything, more granular control is available and
+`gunstage` works exactly as you would expect the opposite of `git add` to work.
+You can unstage directories or only
+specific&nbsp;files: `gunstage file1.txt file2.txt directory/`.
 
 Why
 ~~~
 There is no `git unstage`&nbsp;command. While `git restore --staged` often
-performs the task, it’s neither reliable nor an obvious formula based on
+performs the task, it’s not reliable nor is it an obvious formula based on
 Git’s other&nbsp;commands.
 
+Instead of keeping up with the latest incarnation of Git, whose `git restore`
+`man` page says the “command is experimental” and “the behavior may change”,
+in https://git-scm.com/docs/git-restore/2.28.0#_description[all capital
+letters^] no less, you can let this script do the remembering for&nbsp;you.
+
+Minutiæ of the pedantic and querulous variety
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 To unstage content in a Git repository&nbsp;– that is, to undo a
-`git add`&nbsp;– you must remember
-https://stackoverflow.com/q/58003030[which commands^] are still in use out of
-the five I’m aware of having been&nbsp;recommended:
+`git add`&nbsp;– you must remember https://stackoverflow.com/q/58003030[which
+commands^] are still in use out of the many I’m aware of having been
+recommended so&nbsp;far:
 
-1. `git reset HEAD`,
-1. `git reset HEAD --`,
-1. `git reset --`,
-1. `git restore --staged`, and even
-1. `git rm --cached # ffs`.
+1. `git restore --staged` (https://stackoverflow.com/a/16044987[source^]),
+1. `git reset HEAD` (https://stackoverflow.com/a/6790291[source^]),
+1. `git reset` (https://stackoverflow.com/a/6790285[source^]),
+1. `git restore --staged --` (https://github.com/iain/dotfiles/commit/4c8f8cf7b849d723cbd0e029457dd24c42ea6263[source^]),
+1. `git reset HEAD --` (https://stackoverflow.com/a/5798967[source^]),
+1. `git rm --cached` (https://stackoverflow.com/a/5798967[source^]),
+1. `git reset --` (https://stackoverflow.com/a/6919257[source^]), and&nbsp;even
+1. `git rm --cached -- # ffs` (https://stackoverflow.com/a/30231316[source^]).
 
-Next, you must be aware of repository&nbsp;context: if the branch is new and
-no commit has occurred yet, then `git restore --staged` won’t&nbsp;work.
+Next, you must be aware of repository&nbsp;context: if the repository is new
+and no commit has occurred yet, then `git restore --staged` won’t&nbsp;work,
+but `gunstage`&nbsp;will.
 
 .Enter
 [source,zsh]
 -----------------
 gunstage # 🔫 git unstage as a service
 -----------------
-Its name is an abbreviation and portmanteau of `git unstage`; it arises from
-the Oh&nbsp;My&nbsp;Zsh alias I expected would exist and just&nbsp;work.
+Its name is an abbreviation and portmanteau&nbsp;– or
+portmantabbreviation&nbsp;–, of `git unstage` arising by analog from
+https://github.com/ohmyzsh/ohmyzsh/blob/c99f3c50fa46a93be28be88632889404fff3b958/plugins/git/README.md#aliases[Oh&nbsp;My&nbsp;Zsh’s
+other `git`&nbsp;aliases^].
 
 How
 ~~~
-Instead of keeping up with the latest incarnation of Git, whose `git restore`
-`man` page says the “command is experimental” and “the behavior may
-change”, in
-https://git-scm.com/docs/git-restore/2.28.0#_description[all capital letters^]
-no less, smart unstagers now have the option to leave the competing standards
-to us, the&nbsp;experts.
+I developed this script in Zsh, for Zsh. But `gunstage` ports perfectly to the
+Korn shell as well as to&nbsp;Bash. You can literally just change `env`’s
+argument on
+https://github.com/LucasLarson/gunstage/blob/main/gunstage.plugin.zsh#L1[line&nbsp;1^].
 
 Requirements
 ~~~~~~~~~~~~
-* https://sourceforge.net/p/zsh/code/ci/master/tree/[Zsh^] (or https://github.com/att/ast[Ksh^]
-  (or https://git.savannah.gnu.org/cgit/bash.git/[Bash^])), and
-* https://github.com/git/git[Git^]
+* https://github.com/zsh-users/zsh/tree/zsh-5.8[Zsh&nbsp;5.8^] (or
+  https://github.com/att/ast/tree/ksh93u[Ksh&nbsp;93^] (or
+  https://git.sv.gnu.org/cgit/bash.git/commit/?h=bash-5.0[Bash&nbsp;5.0^])),
+  and
+* https://github.com/git/git/tree/v2.17.0[Git&nbsp;2.17^].
 
 Testing
 ~~~~~~~
-I tested `gunstage` atop Zsh using Git&nbsp;2.28.0 on both
-macOS&nbsp;11.0&nbsp;beta and Alpine&nbsp;Linux&nbsp;3.11.2 on
-iSH&nbsp;1.0&nbsp;(74) on iOS&nbsp;14.0&nbsp;beta.
+I tested `gunstage` atop Zsh&nbsp;5.8 using&nbsp;Git:
+
+* 2.17 on Ubuntu&nbsp;18.04,
+* 2.20 on Debian&nbsp;9.12,
+* 2.28 on macOS&nbsp;11.0 and Alpine&nbsp;3.11 and&nbsp;3.12, and
+* 2.29 on macOS&nbsp;11.0 and Alpine&nbsp;3.11 and&nbsp;3.12.
+
+From macOS, I use https://github.com/gnachman/iTerm2[iTerm2^]; from iOS, I use
+https://github.com/ish-app/ish[iSH^].
