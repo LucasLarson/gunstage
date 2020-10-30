@@ -4,7 +4,7 @@ gunstage
 🔫 `git unstage` as a service
 
 https://github.com/LucasLarson/gunstage/actions?query=workflow:Super-Linter[image:https://img.shields.io/github/workflow/status/LucasLarson/gunstage/Super-Linter?logo=GitHub&label=Super-Linter[GitHub Super-Linter]]
-https://github.com/LucasLarson/gunstage/blob/main/license.md[image:https://img.shields.io/badge/license-GPLP-blue[GPLP,title="GNU General Public License for Pedants"]]
+https://github.com/LucasLarson/gunstage/blob/main/license.adoc[image:https://img.shields.io/badge/license-GPLP-blue[GPLP,title="GNU General Public License for Pedants"]]
 
 What
 ~~~~
