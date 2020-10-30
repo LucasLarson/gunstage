@@ -62,6 +62,7 @@ gunstage () {( # 🔫 `git unstage` as a service
             git init && # make a git repository if necessary \x5c
             git add file && git status # stage the file you just created
 
+            # now use \x60gunstage\x60 to unstage the file
             gunstage file # huzzah.\n\n
             gunstage # \xf0\x9f\x94\xab \x60git unstage\x60 as a service
             https://github.com/LucasLarson/gunstage\n\n'
