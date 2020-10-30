@@ -28,7 +28,7 @@ gunstage () {( # 🔫 `git unstage` as a service
 
     else
       # if the repo is new, it requires different unstaging syntax
-      gunstage="git rm --cached"
+      gunstage="git rm -r --cached"
     fi
 
     # check if `gunstage` was called with any arguments, which are
