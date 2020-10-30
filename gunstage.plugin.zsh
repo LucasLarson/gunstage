@@ -60,7 +60,7 @@ gunstage () {( # 🔫 `git unstage` as a service
             touch file && # create a file called '
     printf '\xe2\x80\x9cfile\xe2\x80\x9d \x5c
             git init && # make a git repository if necessary \x5c
-            git add file && # stage the file you just created \x5c
+            git add file && git status # stage the file you just created
 
             gunstage file # huzzah.\n\n
             gunstage # \xf0\x9f\x94\xab \x60git unstage\x60 as a service
