@@ -6,6 +6,7 @@
 
 **Merged pull requests:**
 
+- Update actions/checkout action to v2.3.4 [\#23](https://github.com/LucasLarson/gunstage/pull/23) ([renovate[bot]](https://github.com/apps/renovate))
 - Update github/super-linter action to v3.13.5 [\#22](https://github.com/LucasLarson/gunstage/pull/22) ([renovate[bot]](https://github.com/apps/renovate))
 - Update github/super-linter action to v3.13.3 [\#21](https://github.com/LucasLarson/gunstage/pull/21) ([renovate[bot]](https://github.com/apps/renovate))
 - add automatically generated changelog workflow [\#20](https://github.com/LucasLarson/gunstage/pull/20) ([LucasLarson](https://github.com/LucasLarson))
