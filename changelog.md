@@ -2,7 +2,7 @@
 
 ## [Unreleased](https://github.com/LucasLarson/gunstage/tree/HEAD)
 
-[Full Changelog](https://github.com/LucasLarson/gunstage/compare/v1.2.0...HEAD)
+[Full Changelog](https://github.com/LucasLarson/gunstage/compare/v1...HEAD)
 
 **Merged pull requests:**
 
@@ -11,9 +11,17 @@
 - Update github/super-linter action to v3.13.3 [\#21](https://github.com/LucasLarson/gunstage/pull/21) ([renovate[bot]](https://github.com/apps/renovate))
 - add automatically generated changelog workflow [\#20](https://github.com/LucasLarson/gunstage/pull/20) ([LucasLarson](https://github.com/LucasLarson))
 
+## [v1](https://github.com/LucasLarson/gunstage/tree/v1) (2020-10-31)
+
+[Full Changelog](https://github.com/LucasLarson/gunstage/compare/v1.2...v1)
+
+## [v1.2](https://github.com/LucasLarson/gunstage/tree/v1.2) (2020-10-31)
+
+[Full Changelog](https://github.com/LucasLarson/gunstage/compare/v1.2.0...v1.2)
+
 ## [v1.2.0](https://github.com/LucasLarson/gunstage/tree/v1.2.0) (2020-10-31)
 
-[Full Changelog](https://github.com/LucasLarson/gunstage/compare/v1.1.3...v1.2.0)
+[Full Changelog](https://github.com/LucasLarson/gunstage/compare/v1.1...v1.2.0)
 
 **Fixed bugs:**
 
@@ -30,10 +38,13 @@
 - Update gaurav-nelson/github-action-markdown-link-check action to v1.0.8 [\#16](https://github.com/LucasLarson/gunstage/pull/16) ([renovate[bot]](https://github.com/apps/renovate))
 - Bump github/super-linter from v3.13.0 to v3.13.1 [\#15](https://github.com/LucasLarson/gunstage/pull/15) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump github/super-linter from v3.12.0 to v3.13.0 [\#14](https://github.com/LucasLarson/gunstage/pull/14) ([dependabot[bot]](https://github.com/apps/dependabot))
-- Bump github/super-linter from v3.11.0 to v3.12.0 [\#13](https://github.com/LucasLarson/gunstage/pull/13) ([dependabot[bot]](https://github.com/apps/dependabot))
 - remove `docker` URI scheme from Super-Linter configuration [\#12](https://github.com/LucasLarson/gunstage/pull/12) ([LucasLarson](https://github.com/LucasLarson))
 - Configure Renovate [\#10](https://github.com/LucasLarson/gunstage/pull/10) ([renovate[bot]](https://github.com/apps/renovate))
 - add fifth competing syntax for unstaging \(fix \#8\) [\#9](https://github.com/LucasLarson/gunstage/pull/9) ([LucasLarson](https://github.com/LucasLarson))
+
+## [v1.1](https://github.com/LucasLarson/gunstage/tree/v1.1) (2020-09-29)
+
+[Full Changelog](https://github.com/LucasLarson/gunstage/compare/v1.1.3...v1.1)
 
 ## [v1.1.3](https://github.com/LucasLarson/gunstage/tree/v1.1.3) (2020-09-29)
 
@@ -41,6 +52,7 @@
 
 **Merged pull requests:**
 
+- Bump github/super-linter from v3.11.0 to v3.12.0 [\#13](https://github.com/LucasLarson/gunstage/pull/13) ([dependabot[bot]](https://github.com/apps/dependabot))
 - repair Asciidoc link to Super-Linter results [\#6](https://github.com/LucasLarson/gunstage/pull/6) ([LucasLarson](https://github.com/LucasLarson))
 - `.github` repairs, extensions [\#5](https://github.com/LucasLarson/gunstage/pull/5) ([LucasLarson](https://github.com/LucasLarson))
 - Update actions/checkout requirement to v2.3.3 [\#4](https://github.com/LucasLarson/gunstage/pull/4) ([dependabot[bot]](https://github.com/apps/dependabot))
