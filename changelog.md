@@ -6,6 +6,7 @@
 
 **Merged pull requests:**
 
+- Update actions/cache action to v2.1.3 [\#26](https://github.com/LucasLarson/gunstage/pull/26) ([renovate[bot]](https://github.com/apps/renovate))
 - Update actions/checkout action to v2.3.4 [\#23](https://github.com/LucasLarson/gunstage/pull/23) ([renovate[bot]](https://github.com/apps/renovate))
 - Update github/super-linter action to v3.13.5 [\#22](https://github.com/LucasLarson/gunstage/pull/22) ([renovate[bot]](https://github.com/apps/renovate))
 - Update github/super-linter action to v3.13.3 [\#21](https://github.com/LucasLarson/gunstage/pull/21) ([renovate[bot]](https://github.com/apps/renovate))
@@ -38,6 +39,7 @@
 - Update gaurav-nelson/github-action-markdown-link-check action to v1.0.8 [\#16](https://github.com/LucasLarson/gunstage/pull/16) ([renovate[bot]](https://github.com/apps/renovate))
 - Bump github/super-linter from v3.13.0 to v3.13.1 [\#15](https://github.com/LucasLarson/gunstage/pull/15) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump github/super-linter from v3.12.0 to v3.13.0 [\#14](https://github.com/LucasLarson/gunstage/pull/14) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump github/super-linter from v3.11.0 to v3.12.0 [\#13](https://github.com/LucasLarson/gunstage/pull/13) ([dependabot[bot]](https://github.com/apps/dependabot))
 - remove `docker` URI scheme from Super-Linter configuration [\#12](https://github.com/LucasLarson/gunstage/pull/12) ([LucasLarson](https://github.com/LucasLarson))
 - Configure Renovate [\#10](https://github.com/LucasLarson/gunstage/pull/10) ([renovate[bot]](https://github.com/apps/renovate))
 - add fifth competing syntax for unstaging \(fix \#8\) [\#9](https://github.com/LucasLarson/gunstage/pull/9) ([LucasLarson](https://github.com/LucasLarson))
@@ -52,7 +54,6 @@
 
 **Merged pull requests:**
 
-- Bump github/super-linter from v3.11.0 to v3.12.0 [\#13](https://github.com/LucasLarson/gunstage/pull/13) ([dependabot[bot]](https://github.com/apps/dependabot))
 - repair Asciidoc link to Super-Linter results [\#6](https://github.com/LucasLarson/gunstage/pull/6) ([LucasLarson](https://github.com/LucasLarson))
 - `.github` repairs, extensions [\#5](https://github.com/LucasLarson/gunstage/pull/5) ([LucasLarson](https://github.com/LucasLarson))
 - Update actions/checkout requirement to v2.3.3 [\#4](https://github.com/LucasLarson/gunstage/pull/4) ([dependabot[bot]](https://github.com/apps/dependabot))
