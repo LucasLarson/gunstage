@@ -30,7 +30,7 @@ gunstage () {( # 🔫 `git unstage` as a service
       if (
         printf 'minimum version 2.23.0\n'
         git --version
-      ) | sort --version-sort --key=3 | tail -n -1 | grep --quiet git; then
+      ) | sort --version-sort --key=3 | tail -n -1 | grep -q git; then
 
         # we’re on modern Git
         gunstage="git restore --staged --progress"
