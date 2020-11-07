@@ -1,13 +1,5 @@
 # Changelog
 
-## [v1](https://github.com/LucasLarson/gunstage/tree/v1) (2020-11-07)
-
-[Full Changelog](https://github.com/LucasLarson/gunstage/compare/v1.2...v1)
-
-## [v1.2](https://github.com/LucasLarson/gunstage/tree/v1.2) (2020-11-07)
-
-[Full Changelog](https://github.com/LucasLarson/gunstage/compare/v1.2.1...v1.2)
-
 ## [v1.2.1](https://github.com/LucasLarson/gunstage/tree/v1.2.1) (2020-11-07)
 
 [Full Changelog](https://github.com/LucasLarson/gunstage/compare/v1.2.0...v1.2.1)
@@ -27,7 +19,7 @@
 
 ## [v1.2.0](https://github.com/LucasLarson/gunstage/tree/v1.2.0) (2020-10-31)
 
-[Full Changelog](https://github.com/LucasLarson/gunstage/compare/v1.1...v1.2.0)
+[Full Changelog](https://github.com/LucasLarson/gunstage/compare/v1.1.3...v1.2.0)
 
 **Fixed bugs:**
 
@@ -48,10 +40,6 @@
 - remove `docker` URI scheme from Super-Linter configuration [\#12](https://github.com/LucasLarson/gunstage/pull/12) ([LucasLarson](https://github.com/LucasLarson))
 - Configure Renovate [\#10](https://github.com/LucasLarson/gunstage/pull/10) ([renovate[bot]](https://github.com/apps/renovate))
 - add fifth competing syntax for unstaging \(fix \#8\) [\#9](https://github.com/LucasLarson/gunstage/pull/9) ([LucasLarson](https://github.com/LucasLarson))
-
-## [v1.1](https://github.com/LucasLarson/gunstage/tree/v1.1) (2020-09-29)
-
-[Full Changelog](https://github.com/LucasLarson/gunstage/compare/v1.1.3...v1.1)
 
 ## [v1.1.3](https://github.com/LucasLarson/gunstage/tree/v1.1.3) (2020-09-29)
 
