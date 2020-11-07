@@ -89,5 +89,5 @@ I tested `gunstage` atop Zsh&nbsp;5.8 using&nbsp;Git:
 * 2.28 on macOS&nbsp;11.0 and Alpine&nbsp;3.11 and&nbsp;3.12, and
 * 2.29 on macOS&nbsp;11.0 and Alpine&nbsp;3.11 and&nbsp;3.12.
 
-From macOS, I use https://github.com/gnachman/iTerm2[iTerm2^]; from iOS, I use
-https://github.com/ish-app/ish[iSH^].
+From macOS, I use https://github.com/gnachman/iTerm2[iTerm2^]; from iOS, I
+use&nbsp;https://github.com/ish-app/ish[iSH^].
