@@ -1,24 +1,29 @@
 # Changelog
 
-## [Unreleased](https://github.com/LucasLarson/gunstage/tree/HEAD)
+## [v1](https://github.com/LucasLarson/gunstage/tree/v1) (2020-11-07)
 
-[Full Changelog](https://github.com/LucasLarson/gunstage/compare/v1...HEAD)
+[Full Changelog](https://github.com/LucasLarson/gunstage/compare/v1.2...v1)
+
+## [v1.2](https://github.com/LucasLarson/gunstage/tree/v1.2) (2020-11-07)
+
+[Full Changelog](https://github.com/LucasLarson/gunstage/compare/v1.2.1...v1.2)
+
+## [v1.2.1](https://github.com/LucasLarson/gunstage/tree/v1.2.1) (2020-11-07)
+
+[Full Changelog](https://github.com/LucasLarson/gunstage/compare/v1.2.0...v1.2.1)
+
+**Fixed bugs:**
+
+- `grep --quiet` doesn’t port to BusyBox [\#27](https://github.com/LucasLarson/gunstage/issues/27)
 
 **Merged pull requests:**
 
+- repair cross-OS compatibility \(fix \#27\) [\#29](https://github.com/LucasLarson/gunstage/pull/29) ([LucasLarson](https://github.com/LucasLarson))
 - Update actions/cache action to v2.1.3 [\#26](https://github.com/LucasLarson/gunstage/pull/26) ([renovate[bot]](https://github.com/apps/renovate))
 - Update actions/checkout action to v2.3.4 [\#23](https://github.com/LucasLarson/gunstage/pull/23) ([renovate[bot]](https://github.com/apps/renovate))
 - Update github/super-linter action to v3.13.5 [\#22](https://github.com/LucasLarson/gunstage/pull/22) ([renovate[bot]](https://github.com/apps/renovate))
 - Update github/super-linter action to v3.13.3 [\#21](https://github.com/LucasLarson/gunstage/pull/21) ([renovate[bot]](https://github.com/apps/renovate))
 - add automatically generated changelog workflow [\#20](https://github.com/LucasLarson/gunstage/pull/20) ([LucasLarson](https://github.com/LucasLarson))
-
-## [v1](https://github.com/LucasLarson/gunstage/tree/v1) (2020-10-31)
-
-[Full Changelog](https://github.com/LucasLarson/gunstage/compare/v1.2...v1)
-
-## [v1.2](https://github.com/LucasLarson/gunstage/tree/v1.2) (2020-10-31)
-
-[Full Changelog](https://github.com/LucasLarson/gunstage/compare/v1.2.0...v1.2)
 
 ## [v1.2.0](https://github.com/LucasLarson/gunstage/tree/v1.2.0) (2020-10-31)
 
