@@ -17,7 +17,7 @@ in&nbsp;response.
 
 This is a command-line shell plugin for undoing `git add`. Too many
 staged&nbsp;files? Can’t remember if it’s `git reset HEAD` or
-`git restore --staged -- `? Just remember&nbsp;`gunstage`.
+`git restore --staged -- `? Just remember&nbsp;`gunstage` or `git unstage`.
 
 If you don’t want to unstage everything, more granular control is available and
 `gunstage` works exactly as you would expect the opposite of `git add` to work.
@@ -26,9 +26,9 @@ specific&nbsp;files: `gunstage file1.txt file2.txt directory/`.
 
 Why
 ~~~
-There is no `git unstage`&nbsp;command. While `git restore --staged` often
-performs the task, it’s not reliable nor is it an obvious formula based on
-Git’s other&nbsp;commands.
+There is no `git unstage`&nbsp;command packaged as part of the `git` default
+tooling. While `git restore --staged` often performs the task, it’s not reliable
+nor is it an obvious formula based on Git’s other&nbsp;commands.
 
 Instead of keeping up with the latest incarnation of Git, whose `git restore`
 `man` page says the “command is experimental” and “the behavior may change”,
@@ -59,6 +59,7 @@ but `gunstage`&nbsp;will.
 [source,zsh]
 -----------------
 gunstage # 🔫 git unstage as a service
+git unstage # 🔫 git unstage as a service
 -----------------
 Its name is an abbreviation and portmanteau&nbsp;– or
 portmantabbreviation&nbsp;–, of `git unstage` arising by analog from
