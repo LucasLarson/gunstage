@@ -137,6 +137,7 @@ excluded_words:
   - unstage
   - unstagers
   - unstaging
+  - xab  # misanalysis of the `xab` in gunstage’s `printf '\xf0\x9f\x94\xab'`
 
   # GitHub
   - gitsubmodule
