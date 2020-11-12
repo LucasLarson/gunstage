@@ -10,6 +10,7 @@
 
 **Merged pull requests:**
 
+- Update ibiqlik/action-yamllint action to v3 [\#34](https://github.com/LucasLarson/gunstage/pull/34) ([renovate[bot]](https://github.com/apps/renovate))
 - Make gunstage also work as `git unstage` [\#32](https://github.com/LucasLarson/gunstage/pull/32) ([unixorn](https://github.com/unixorn))
 - Restyle repair changelog links [\#31](https://github.com/LucasLarson/gunstage/pull/31) ([restyled-io[bot]](https://github.com/apps/restyled-io))
 - repair changelog links [\#30](https://github.com/LucasLarson/gunstage/pull/30) ([LucasLarson](https://github.com/LucasLarson))
