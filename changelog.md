@@ -2,7 +2,15 @@
 
 ## [Unreleased](https://github.com/LucasLarson/gunstage/tree/HEAD)
 
-[Full Changelog](https://github.com/LucasLarson/gunstage/compare/v1.2.1...HEAD)
+[Full Changelog](https://github.com/LucasLarson/gunstage/compare/v1.3.0...HEAD)
+
+**Merged pull requests:**
+
+- remove gaurav-nelson/github-action-markdown-link-check workflow [\#36](https://github.com/LucasLarson/gunstage/pull/36) ([LucasLarson](https://github.com/LucasLarson))
+
+## [v1.3.0](https://github.com/LucasLarson/gunstage/tree/v1.3.0) (2020-11-12)
+
+[Full Changelog](https://github.com/LucasLarson/gunstage/compare/v1.2.1...v1.3.0)
 
 **Closed issues:**
 
