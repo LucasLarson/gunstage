@@ -4,8 +4,13 @@
 
 [Full Changelog](https://github.com/LucasLarson/gunstage/compare/v1.2.1...HEAD)
 
+**Closed issues:**
+
+- Please add a top-level license file [\#28](https://github.com/LucasLarson/gunstage/issues/28)
+
 **Merged pull requests:**
 
+- Make gunstage also work as `git unstage` [\#32](https://github.com/LucasLarson/gunstage/pull/32) ([unixorn](https://github.com/unixorn))
 - Restyle repair changelog links [\#31](https://github.com/LucasLarson/gunstage/pull/31) ([restyled-io[bot]](https://github.com/apps/restyled-io))
 - repair changelog links [\#30](https://github.com/LucasLarson/gunstage/pull/30) ([LucasLarson](https://github.com/LucasLarson))
 
