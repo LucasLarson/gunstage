@@ -6,6 +6,7 @@
 
 **Merged pull requests:**
 
+- Update github/super-linter action to v3.14.0 [\#38](https://github.com/LucasLarson/gunstage/pull/38) ([renovate[bot]](https://github.com/apps/renovate))
 - remove gaurav-nelson/github-action-markdown-link-check workflow [\#36](https://github.com/LucasLarson/gunstage/pull/36) ([LucasLarson](https://github.com/LucasLarson))
 
 ## [v1.3.0](https://github.com/LucasLarson/gunstage/tree/v1.3.0) (2020-11-12)
