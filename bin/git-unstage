@@ -13,7 +13,7 @@
 #      gunstage
 #      🔫 `git unstage` as a service
 #      author: Lucas Larson
-#      license: GPLP 1.0 or later (GPL compatible)
+#      license: GPLP 1.0 or later (GPL-compatible)
 #
 
 gunstage () {( # 🔫 `git unstage` as a service
