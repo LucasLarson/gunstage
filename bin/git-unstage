@@ -71,11 +71,11 @@ gunstage () {( # 🔫 `git unstage` as a service
 
     # if `gunstage` is called from outside a Git repository, provide
     # instructions to use it
-    printf 'gunstage must be called from within a git repository\n'
+    printf 'gunstage must be called from within a Git repository\n'
     printf 'create a file and a repository, then stage and gunstage:\n
             touch file && # create a file called '
     printf '\xe2\x80\x9cfile\xe2\x80\x9d \x5c
-            git init && # make a git repository if necessary \x5c
+            git init && # make a Git repository if necessary \x5c
             git add file && git status # stage the file you just created
 
             # now use \x60gunstage\x60 to unstage the file

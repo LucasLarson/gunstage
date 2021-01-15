@@ -16,7 +16,7 @@
 #      license: GPLP 1.0 or later (GPL-compatible)
 #
 
-# git will let you turn any executable into a git command. If you
+# Git will let you turn any executable into a Git command. If you
 # name it 'git-xyz', it will get called when the user types 'git xyz'
 #
 # Make gunstage into a full-on 'git unstage' command by sticking it into
