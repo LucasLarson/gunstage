@@ -26,21 +26,8 @@ gunstage () {( # 🔫 `git unstage` as a service
     # check that this isn’t a new repository
     if git rev-parse HEAD >/dev/null 2>&1; then
 
-      # use modern Git syntax if available
-      # https://stackoverflow.com/a/48998537
-      if (
-        printf 'minimum version 2.23.0\n'
-        git --version
-      ) | sort --version-sort --key=3 | tail -n -1 | grep -q git; then
-
-        # we’re on modern Git
-        gunstage="git restore --staged --progress"
-
-      else
-        # we’re on old-timey Git
-        # https://git.io/git_reset_HEAD
-        gunstage="git reset HEAD"
-      fi
+      # https://git.io/git_reset_HEAD
+      gunstage="git reset HEAD --"
 
     else
       # if the repo is new, it requires different unstaging syntax
