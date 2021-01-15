@@ -48,8 +48,8 @@ gunstage () {( # 🔫 `git unstage` as a service
     # https://github.com/ohmyzsh/ohmyzsh/pull/9238#discussion_r484806772
     gunstage=$?
 
-    # if `gunstage` is called from outside a Git repository, provide
-    # instructions to use it
+    # if called from outside a Git repository, then
+    # provide instructions on how to use it
     printf 'gunstage must be called from within a Git repository\n'
     printf 'create a file and a repository, then stage and gunstage:\n
             touch file && # create a file called '
