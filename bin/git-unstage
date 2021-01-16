@@ -71,4 +71,4 @@ gunstage () {( # 🔫 `git unstage` as a service
   fi
 )}
 
-gunstage $@
+gunstage "$@"
