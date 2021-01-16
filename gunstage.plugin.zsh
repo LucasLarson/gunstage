@@ -25,6 +25,7 @@
 # Add our plugin's bin directory to user's path
 PLUGIN_D=$(dirname "$0")
 export PATH="${PATH}:${PLUGIN_D}/bin"
+unset PLUGIN_D
 
 # Be backwards compatible.
 alias gunstage='git-unstage'
