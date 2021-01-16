@@ -24,19 +24,11 @@ gunstage () {( # 🔫 `git unstage` as a service
   if git rev-parse --is-inside-work-tree >/dev/null 2>&1; then
 
     # if program was called with any arguments,
-    # then convert them into an array called files
-    if [ $# -gt 0 ]; then
-      files=(
-        "$@"
-      )
-
-    else
-      # if called without arguments, prepare to
-      # unstage everything in the current directory and below
-      files=(
-        "."
-      )
-    fi
+    # then convert them into an array called files,
+    # otherwise use `.` for everything in the current directory and below
+    files=(
+      "${@:-.}"
+    )
 
     # run the same command against each element in the array
     # https://stackoverflow.com/a/12711853
