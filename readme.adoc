@@ -17,7 +17,7 @@ in&nbsp;response.
 
 This is a command-line shell plugin for undoing `git add`. Too many
 staged&nbsp;files? Can’t remember if it’s `git reset HEAD` or
-`git restore --staged -- `? Just remember&nbsp;`gunstage` or `git unstage`.
+`git restore --staged --`? Just remember `gunstage` or `git unstage`.
 
 If you don’t want to unstage everything, more granular control
 is&nbsp;available. `gunstage` works exactly as you would expect it to as it
