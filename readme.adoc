@@ -68,10 +68,10 @@ but `gunstage`&nbsp;will.
 [source,zsh]
 -----------------
 gunstage # 🔫 git unstage as a service
-git unstage # 🔫 git unstage as a service
+git unstage # 🔫 it just works!
 -----------------
-Its name is an abbreviation and portmanteau&nbsp;– or
-portmantabbreviation&nbsp;–, of `git unstage` arising by analog from
+Its name is an abbreviation and portmanteau of `git unstage` arising by
+analog from
 https://github.com/ohmyzsh/ohmyzsh/blob/c99f3c50fa46a93be28be88632889404fff3b958/plugins/git/README.md#aliases[Oh&nbsp;My&nbsp;Zsh’s
 other `git`&nbsp;aliases^].
 
