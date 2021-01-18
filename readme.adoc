@@ -19,10 +19,11 @@ This is a command-line shell plugin for undoing `git add`. Too many
 staged&nbsp;files? Can’t remember if it’s `git reset HEAD` or
 `git restore --staged -- `? Just remember&nbsp;`gunstage` or `git unstage`.
 
-If you don’t want to unstage everything, more granular control is available and
-`gunstage` works exactly as you would expect the opposite of `git add` to work.
-You can unstage directories or only
-specific&nbsp;files: `gunstage file1.txt file2.txt directory/`.
+If you don’t want to unstage everything, more granular control
+is&nbsp;available. `gunstage` works exactly as you would expect it to as it
+performs the opposite of `git add`. You can unstage directories and
+specific files in as few commands as you’d like:
+`gunstage file1.txt file2.txt directory/`.
 
 Why
 ~~~
