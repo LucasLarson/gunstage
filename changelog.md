@@ -1,8 +1,16 @@
 # Changelog
 
-## [Unreleased](https://github.com/LucasLarson/gunstage/tree/HEAD)
+## [v1.4.0](https://github.com/LucasLarson/gunstage/tree/v1.4.0) (2021-01-18)
 
-[Full Changelog](https://github.com/LucasLarson/gunstage/compare/v1.3.0...HEAD)
+[Full Changelog](https://github.com/LucasLarson/gunstage/compare/v1.3.0...v1.4.0)
+
+**Fixed bugs:**
+
+- regression: filenames with spaces cause unexpected results on Linux [\#37](https://github.com/LucasLarson/gunstage/issues/37)
+
+**Closed issues:**
+
+- another `git unstage` syntax found in the wild [\#41](https://github.com/LucasLarson/gunstage/issues/41)
 
 **Merged pull requests:**
 
@@ -28,7 +36,7 @@
 
 ## [v1.2.1](https://github.com/LucasLarson/gunstage/tree/v1.2.1) (2020-11-07)
 
-[Full Changelog](https://github.com/LucasLarson/gunstage/compare/v1.2.0...v1.2.1)
+[Full Changelog](https://github.com/LucasLarson/gunstage/compare/v1...v1.2.1)
 
 **Fixed bugs:**
 
@@ -43,9 +51,17 @@
 - Update github/super-linter action to v3.13.3 [\#21](https://github.com/LucasLarson/gunstage/pull/21) ([renovate[bot]](https://github.com/apps/renovate))
 - add automatically generated changelog workflow [\#20](https://github.com/LucasLarson/gunstage/pull/20) ([LucasLarson](https://github.com/LucasLarson))
 
+## [v1](https://github.com/LucasLarson/gunstage/tree/v1) (2020-10-31)
+
+[Full Changelog](https://github.com/LucasLarson/gunstage/compare/v1.2...v1)
+
+## [v1.2](https://github.com/LucasLarson/gunstage/tree/v1.2) (2020-10-31)
+
+[Full Changelog](https://github.com/LucasLarson/gunstage/compare/v1.2.0...v1.2)
+
 ## [v1.2.0](https://github.com/LucasLarson/gunstage/tree/v1.2.0) (2020-10-31)
 
-[Full Changelog](https://github.com/LucasLarson/gunstage/compare/v1.1.3...v1.2.0)
+[Full Changelog](https://github.com/LucasLarson/gunstage/compare/v1.1...v1.2.0)
 
 **Fixed bugs:**
 
@@ -66,6 +82,10 @@
 - remove `docker` URI scheme from Super-Linter configuration [\#12](https://github.com/LucasLarson/gunstage/pull/12) ([LucasLarson](https://github.com/LucasLarson))
 - Configure Renovate [\#10](https://github.com/LucasLarson/gunstage/pull/10) ([renovate[bot]](https://github.com/apps/renovate))
 - add fifth competing syntax for unstaging \(fix \#8\) [\#9](https://github.com/LucasLarson/gunstage/pull/9) ([LucasLarson](https://github.com/LucasLarson))
+
+## [v1.1](https://github.com/LucasLarson/gunstage/tree/v1.1) (2020-09-29)
+
+[Full Changelog](https://github.com/LucasLarson/gunstage/compare/v1.1.3...v1.1)
 
 ## [v1.1.3](https://github.com/LucasLarson/gunstage/tree/v1.1.3) (2020-09-29)
 
