@@ -30,10 +30,10 @@ There is no `git unstage`&nbsp;command packaged as part of the `git` default
 tooling. While `git restore --staged` often performs the task, it’s not reliable
 nor is it an obvious formula based on Git’s other&nbsp;commands.
 
-Instead of keeping up with the latest incarnation of Git, whose `git restore`
-`man` page says the “command is experimental” and “the behavior may change”,
-in https://git-scm.com/docs/git-restore/2.28.0#_description[all capital
-letters^] no less, you can let this script do the remembering for&nbsp;you.
+Instead of keeping up with the latest incarnation of Git, whose manual says
+`git restore` “IS EXPERIMENTAL” and “THE BEHAVIOR MAY CHANGE” (emphasis
+https://git-scm.com/docs/git-restore/2.30.0#_description[in original^]), you
+can let this script do the remembering for&nbsp;you.
 
 Minutiæ of the pedantic and querulous variety
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
