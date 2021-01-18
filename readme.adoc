@@ -79,7 +79,9 @@ How
 ~~~
 The scripts are written in Bourne shell-flavored, KornShell- and Zsh-compatible
 Bash, which is masquerading as Z&nbsp;shell with a `.zsh` filename extension so
-Oh&nbsp;My&nbsp;Zsh recognizes it as a plugin.
+Oh&nbsp;My&nbsp;Zsh recognizes it as a plugin. What does that mean? The
+syntax is low-tech as possible while performing sophisticated work to do one
+thing and do it well: `git unstage`.
 
 Requirements
 ~~~~~~~~~~~~
