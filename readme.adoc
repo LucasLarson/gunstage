@@ -27,9 +27,16 @@ specific files in as few commands as you’d like:
 
 Why
 ~~~
-There is no `git unstage`&nbsp;command packaged as part of the `git` default
-tooling. While `git restore --staged` often performs the task, it’s not reliable
-nor is it an obvious formula based on Git’s other&nbsp;commands.
+There is no `git unstage` command packaged as part of Git’s
+default&nbsp;tooling. While `git restore --staged` often performs the task,
+it’s not an obvious formula based on Git’s other&nbsp;commands.
+`git restore --staged` is also&nbsp;unreliable, having
+https://web.archive.org/web/20201214132901id_/github.blog/2019-08-16-highlights-from-git-2-23/#experimental-alternatives-for-git-checkout[entered
+Git’s vocabulary in&nbsp;2019^], after some&nbsp;14 years of releases
+without&nbsp;it. Many older releases remain in the wild and `git restore`
+causes them to fail and choke. This software gracefully and silently accounts
+for those situations by always sending the syntax that Git used from 2005 until
+2019: `git reset`.
 
 Instead of keeping up with the latest incarnation of Git, whose manual says
 `git restore` “IS EXPERIMENTAL” and “THE BEHAVIOR MAY CHANGE” (emphasis
