@@ -10,7 +10,7 @@ General Public License for Pedants"]]
 
 What
 ~~~~
-There are at least eight ways to unstage files in a Git&nbsp;repository.
+There are at least nine ways to unstage files in a Git&nbsp;repository.
 Remembering which versions of Git support which syntax, under which
 circumstances, reduced my productivity enough to publish this software
 in&nbsp;response.
@@ -44,6 +44,7 @@ recommended so&nbsp;far:
 
 1. `git restore --staged` (https://stackoverflow.com/a/16044987[source^]),
 1. `git reset HEAD` (https://stackoverflow.com/a/6790291[source^]),
+1. `git reset -q HEAD --` (https://github.com/gggritso/gggritso.com/blob/a07b620/_posts/2015-08-23-human-git-aliases.md#L45[source^] (https://news.ycombinator.com/item?id=17987033#17987696[via^]))
 1. `git reset` (https://stackoverflow.com/a/6790285[source^]),
 1. `git restore --staged --` (https://github.com/iain/dotfiles/commit/4c8f8cf7b849d723cbd0e029457dd24c42ea6263[source^]),
 1. `git reset HEAD --` (https://stackoverflow.com/a/5798967[source^]),
