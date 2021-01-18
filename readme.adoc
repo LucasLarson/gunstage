@@ -78,7 +78,7 @@ other `git`&nbsp;aliases^].
 How
 ~~~
 I developed this script in Zsh, for Zsh. But `gunstage` ports perfectly to the
-Korn shell as well as to&nbsp;Bash. You can literally just change `env`’s
+KornShell as well as to&nbsp;Bash. You can literally just change `env`’s
 argument on
 https://github.com/LucasLarson/gunstage/blob/main/gunstage.plugin.zsh#L1[line&nbsp;1^].
 
