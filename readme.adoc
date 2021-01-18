@@ -77,10 +77,9 @@ other Git&nbsp;aliases^].
 
 How
 ~~~
-I developed this script in Zsh, for Zsh. But `gunstage` ports perfectly to the
-KornShell as well as to&nbsp;Bash. You can literally just change `env`’s
-argument on
-https://github.com/LucasLarson/gunstage/blob/main/gunstage.plugin.zsh#L1[line&nbsp;1^].
+The scripts are written in Bourne shell-flavored, KornShell- and Zsh-compatible
+Bash, which is masquerading as Z&nbsp;shell with a `.zsh` filename extension so
+Oh&nbsp;My&nbsp;Zsh recognizes it as a plugin.
 
 Requirements
 ~~~~~~~~~~~~
