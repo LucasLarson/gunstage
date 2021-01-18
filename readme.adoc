@@ -80,8 +80,10 @@ How
 The scripts are written in Bourne shell-flavored, KornShell- and Zsh-compatible
 Bash, which is masquerading as Z&nbsp;shell with a `.zsh` filename extension so
 Oh&nbsp;My&nbsp;Zsh recognizes it as a plugin. What does that mean? The
-syntax is low-tech as possible while performing sophisticated work to do one
-thing and do it well: `git unstage`.
+syntax is
+https://github.com/mcornella/dotfiles/blob/51feef648a2d68a82348ed4753ac3d6b65972510/zshenv#L10-L11[as
+low-tech as possible^] while performing sophisticated work to do one thing and
+do it well: `git unstage`.
 
 Requirements
 ~~~~~~~~~~~~
