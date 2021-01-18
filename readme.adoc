@@ -84,12 +84,12 @@ Requirements
 
 Testing
 ~~~~~~~
-I tested `gunstage` atop Zsh&nbsp;5.8 using&nbsp;Git:
+I tested `gunstage` atop Zsh&nbsp;5.8 and Bash&nbsp;3.2 using&nbsp;Git:
 
 * 2.17 on Ubuntu&nbsp;18.04,
 * 2.20 on Debian&nbsp;9.12,
-* 2.28 on macOS&nbsp;11.0 and Alpine&nbsp;3.11 and&nbsp;3.12, and
-* 2.29 on macOS&nbsp;11.0 and Alpine&nbsp;3.11 and&nbsp;3.12.
+* 2.28, 2.29, and 2.30 on macOS&nbsp;11.0 and Alpine&nbsp;3.11 and&nbsp;3.12,
+  and
 
 From macOS, I use https://github.com/gnachman/iTerm2[iTerm2^]; from iOS, I
 use&nbsp;https://github.com/ish-app/ish[iSH^].
