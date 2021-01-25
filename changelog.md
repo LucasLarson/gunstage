@@ -1,5 +1,17 @@
 # Changelog
 
+## [Unreleased](https://github.com/LucasLarson/gunstage/tree/HEAD)
+
+[Full Changelog](https://github.com/LucasLarson/gunstage/compare/v1.4.0...HEAD)
+
+**Implemented enhancements:**
+
+- remove array if possible [\#45](https://github.com/LucasLarson/gunstage/issues/45)
+
+**Closed issues:**
+
+- Action Required: Fix Renovate Configuration [\#44](https://github.com/LucasLarson/gunstage/issues/44)
+
 ## [v1.4.0](https://github.com/LucasLarson/gunstage/tree/v1.4.0) (2021-01-18)
 
 [Full Changelog](https://github.com/LucasLarson/gunstage/compare/v1.3.0...v1.4.0)
