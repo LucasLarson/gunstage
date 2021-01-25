@@ -17,7 +17,7 @@
 #
 
 gunstage () {( # 🔫 `git unstage` as a service
-  IFS="$(printf '\n\t')"
+  IFS=$(printf '\n\t')
 
   # check whether we’re in a Git repository
   # https://stackoverflow.com/a/53809163
