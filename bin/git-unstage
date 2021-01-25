@@ -23,16 +23,9 @@ gunstage () {( # 🔫 `git unstage` as a service
   # https://stackoverflow.com/a/53809163
   if git rev-parse --is-inside-work-tree >/dev/null 2>&1; then
 
-    # if program was called with any arguments,
-    # then convert them into an array called files,
+    # run the same command against each argument, if any
     # otherwise use `.` for everything in the current directory and below
-    files=(
-      "${@:-.}"
-    )
-
-    # run the same command against each element in the array
-    # https://stackoverflow.com/a/12711853
-    for file in "${files[@]}"; do
+    for file in "${@:-.}"; do
 
       # https://github.com/gggritso/gggritso.com/commit/a07b620
       git reset --quiet HEAD -- "${file}"
