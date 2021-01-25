@@ -6,6 +6,7 @@
 
 **Implemented enhancements:**
 
+- remove double quotation marks where not suggested by ShellCheck [\#46](https://github.com/LucasLarson/gunstage/issues/46)
 - remove array if possible [\#45](https://github.com/LucasLarson/gunstage/issues/45)
 
 **Closed issues:**
