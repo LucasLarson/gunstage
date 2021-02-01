@@ -103,7 +103,6 @@
 - remove `docker` URI scheme from Super-Linter configuration [\#12](https://github.com/LucasLarson/gunstage/pull/12) ([LucasLarson](https://github.com/LucasLarson))
 - Configure Renovate [\#10](https://github.com/LucasLarson/gunstage/pull/10) ([renovate[bot]](https://github.com/apps/renovate))
 - add fifth competing syntax for unstaging \(fix \#8\) [\#9](https://github.com/LucasLarson/gunstage/pull/9) ([LucasLarson](https://github.com/LucasLarson))
-- rename Lint Code Base to Super-Linter [\#1](https://github.com/LucasLarson/gunstage/pull/1) ([LucasLarson](https://github.com/LucasLarson))
 
 ## [v1.1](https://github.com/LucasLarson/gunstage/tree/v1.1) (2020-09-29)
 
@@ -131,6 +130,7 @@
 **Merged pull requests:**
 
 - `unset` execution string to prevent memory leak [\#2](https://github.com/LucasLarson/gunstage/pull/2) ([LucasLarson](https://github.com/LucasLarson))
+- rename Lint Code Base to Super-Linter [\#1](https://github.com/LucasLarson/gunstage/pull/1) ([LucasLarson](https://github.com/LucasLarson))
 
 ## [v1.1.0](https://github.com/LucasLarson/gunstage/tree/v1.1.0) (2020-09-09)
 
