@@ -6,6 +6,7 @@
 
 **Merged pull requests:**
 
+- Update actions/cache action to v2.1.4 [\#48](https://github.com/LucasLarson/gunstage/pull/48) ([renovate[bot]](https://github.com/apps/renovate))
 - Update github/super-linter action to v3.14.5 [\#47](https://github.com/LucasLarson/gunstage/pull/47) ([renovate[bot]](https://github.com/apps/renovate))
 
 ## [v1.5.0](https://github.com/LucasLarson/gunstage/tree/v1.5.0) (2021-01-25)
