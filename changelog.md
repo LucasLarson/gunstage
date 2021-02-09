@@ -6,6 +6,7 @@
 
 **Merged pull requests:**
 
+- Update actions/setup-ruby action to v1.1.3 [\#49](https://github.com/LucasLarson/gunstage/pull/49) ([renovate[bot]](https://github.com/apps/renovate))
 - Update actions/cache action to v2.1.4 [\#48](https://github.com/LucasLarson/gunstage/pull/48) ([renovate[bot]](https://github.com/apps/renovate))
 - Update github/super-linter action to v3.14.5 [\#47](https://github.com/LucasLarson/gunstage/pull/47) ([renovate[bot]](https://github.com/apps/renovate))
 
