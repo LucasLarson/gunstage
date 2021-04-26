@@ -6,6 +6,8 @@
 
 **Merged pull requests:**
 
+- Update github/super-linter action to v3.16.1 [\#60](https://github.com/LucasLarson/gunstage/pull/60) ([renovate[bot]](https://github.com/apps/renovate))
+- Update ibiqlik/action-yamllint action to v3.0.1 [\#58](https://github.com/LucasLarson/gunstage/pull/58) ([renovate[bot]](https://github.com/apps/renovate))
 - Update actions/cache action to v2.1.5 [\#57](https://github.com/LucasLarson/gunstage/pull/57) ([renovate[bot]](https://github.com/apps/renovate))
 - Update github/super-linter action to v3.15.5 [\#56](https://github.com/LucasLarson/gunstage/pull/56) ([renovate[bot]](https://github.com/apps/renovate))
 - Update github/super-linter action to v3.15.3 [\#54](https://github.com/LucasLarson/gunstage/pull/54) ([renovate[bot]](https://github.com/apps/renovate))
