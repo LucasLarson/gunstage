@@ -16,7 +16,7 @@
 #      license: GPLP 1.0 or later (GPL-compatible)
 #
 
-gunstage () {( # 🔫 `git unstage` as a service
+gunstage () {(
   IFS=$(printf '\n\t')
 
   # check whether we’re in a Git repository
