@@ -1,14 +1,14 @@
 ---
-###########################
-###########################
-## Linter GitHub Actions ##
-###########################
-###########################
+#########################
+#########################
+## GitHub Super-Linter ##
+#########################
+#########################
 name: Super-Linter
 
 #
 # Documentation:
-# https://help.github.com/en/articles/workflow-syntax-for-github-actions
+# https://help.github.com/articles/workflow-syntax-for-github-actions
 #
 
 #############################
@@ -21,6 +21,8 @@ on:
   push:
     branches:
       - main
+    # branches-ignore: [dev]
+    # Uncomment the line above to skip running on pushes to `dev`
   pull_request:
     branches:
       - main
