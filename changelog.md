@@ -2,10 +2,21 @@
 
 ## [Unreleased](https://github.com/LucasLarson/gunstage/tree/HEAD)
 
-[Full Changelog](https://github.com/LucasLarson/gunstage/compare/v1.5.0...HEAD)
+[Full Changelog](https://github.com/LucasLarson/gunstage/compare/v1...HEAD)
+
+**Implemented enhancements:**
+
+- remove second instance of 🔫 from shell script comments [\#70](https://github.com/LucasLarson/gunstage/pull/70) ([LucasLarson](https://github.com/LucasLarson))
+- remove inactive TypoCI configuration [\#69](https://github.com/LucasLarson/gunstage/pull/69) ([LucasLarson](https://github.com/LucasLarson))
+
+**Closed issues:**
+
+- `actions/setup-ruby` is deprecated [\#62](https://github.com/LucasLarson/gunstage/issues/62)
 
 **Merged pull requests:**
 
+- replace deprecated `actions/setup-ruby` with `ruby/setup-ruby` \(fix \#62\) [\#63](https://github.com/LucasLarson/gunstage/pull/63) ([LucasLarson](https://github.com/LucasLarson))
+- Update github/super-linter action to v3.16.2 [\#61](https://github.com/LucasLarson/gunstage/pull/61) ([renovate[bot]](https://github.com/apps/renovate))
 - Update github/super-linter action to v3.16.1 [\#60](https://github.com/LucasLarson/gunstage/pull/60) ([renovate[bot]](https://github.com/apps/renovate))
 - Update ibiqlik/action-yamllint action to v3.0.1 [\#58](https://github.com/LucasLarson/gunstage/pull/58) ([renovate[bot]](https://github.com/apps/renovate))
 - Update actions/cache action to v2.1.5 [\#57](https://github.com/LucasLarson/gunstage/pull/57) ([renovate[bot]](https://github.com/apps/renovate))
@@ -15,6 +26,14 @@
 - Update actions/setup-ruby action to v1.1.3 [\#49](https://github.com/LucasLarson/gunstage/pull/49) ([renovate[bot]](https://github.com/apps/renovate))
 - Update actions/cache action to v2.1.4 [\#48](https://github.com/LucasLarson/gunstage/pull/48) ([renovate[bot]](https://github.com/apps/renovate))
 - Update github/super-linter action to v3.14.5 [\#47](https://github.com/LucasLarson/gunstage/pull/47) ([renovate[bot]](https://github.com/apps/renovate))
+
+## [v1](https://github.com/LucasLarson/gunstage/tree/v1) (2021-01-25)
+
+[Full Changelog](https://github.com/LucasLarson/gunstage/compare/v1.5...v1)
+
+## [v1.5](https://github.com/LucasLarson/gunstage/tree/v1.5) (2021-01-25)
+
+[Full Changelog](https://github.com/LucasLarson/gunstage/compare/v1.5.0...v1.5)
 
 ## [v1.5.0](https://github.com/LucasLarson/gunstage/tree/v1.5.0) (2021-01-25)
 
@@ -65,7 +84,7 @@
 
 ## [v1.2.1](https://github.com/LucasLarson/gunstage/tree/v1.2.1) (2020-11-07)
 
-[Full Changelog](https://github.com/LucasLarson/gunstage/compare/v1...v1.2.1)
+[Full Changelog](https://github.com/LucasLarson/gunstage/compare/v1.2...v1.2.1)
 
 **Fixed bugs:**
 
@@ -79,10 +98,6 @@
 - Update github/super-linter action to v3.13.5 [\#22](https://github.com/LucasLarson/gunstage/pull/22) ([renovate[bot]](https://github.com/apps/renovate))
 - Update github/super-linter action to v3.13.3 [\#21](https://github.com/LucasLarson/gunstage/pull/21) ([renovate[bot]](https://github.com/apps/renovate))
 - add automatically generated changelog workflow [\#20](https://github.com/LucasLarson/gunstage/pull/20) ([LucasLarson](https://github.com/LucasLarson))
-
-## [v1](https://github.com/LucasLarson/gunstage/tree/v1) (2020-10-31)
-
-[Full Changelog](https://github.com/LucasLarson/gunstage/compare/v1.2...v1)
 
 ## [v1.2](https://github.com/LucasLarson/gunstage/tree/v1.2) (2020-10-31)
 
