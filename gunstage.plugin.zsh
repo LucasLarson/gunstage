@@ -23,5 +23,5 @@ PLUGIN_D=$(dirname "$0")
 export PATH=${PATH}:${PLUGIN_D}/bin
 unset PLUGIN_D
 
-# Be backwards compatible.
+# keep backwards compatibility
 alias gunstage='git-unstage'
