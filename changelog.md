@@ -15,6 +15,7 @@
 
 **Merged pull requests:**
 
+- reduce repetition in @Dependabot section headings [\#72](https://github.com/LucasLarson/gunstage/pull/72) ([LucasLarson](https://github.com/LucasLarson))
 - replace deprecated `actions/setup-ruby` with `ruby/setup-ruby` \(fix \#62\) [\#63](https://github.com/LucasLarson/gunstage/pull/63) ([LucasLarson](https://github.com/LucasLarson))
 - Update github/super-linter action to v3.16.2 [\#61](https://github.com/LucasLarson/gunstage/pull/61) ([renovate[bot]](https://github.com/apps/renovate))
 - Update github/super-linter action to v3.16.1 [\#60](https://github.com/LucasLarson/gunstage/pull/60) ([renovate[bot]](https://github.com/apps/renovate))
