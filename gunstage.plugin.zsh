@@ -14,6 +14,7 @@
 #      🔫 `git unstage` as a service
 #      author: Lucas Larson
 #      license: GPLP 1.0 or later (GPL-compatible)
+#      https://github.com/LucasLarson/gunstage
 #
 
 # Git will let you turn any executable into a Git command. If you
