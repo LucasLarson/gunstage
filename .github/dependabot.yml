@@ -37,7 +37,7 @@ updates:
     schedule:
       interval: "daily"
 
-  # git submodule
+  # git submodules
   - package-ecosystem: "gitsubmodule"
     directory: "/"
     schedule:
