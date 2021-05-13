@@ -19,9 +19,7 @@
 
 # enable `git unstage` in addition to `gunstage`
 # by adding `bin` directory to `PATH`
-PLUGIN_D=$(dirname "$0")
-export PATH=${PATH}:${PLUGIN_D}/bin
-unset PLUGIN_D
+export PATH=${PATH}:$(dirname "$0")/bin
 
 # keep backwards compatibility
 alias gunstage='git-unstage'
