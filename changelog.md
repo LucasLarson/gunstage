@@ -6,6 +6,7 @@
 
 **Implemented enhancements:**
 
+- use major semver dependency versions where possible [\#76](https://github.com/LucasLarson/gunstage/pull/76) ([LucasLarson](https://github.com/LucasLarson))
 - repair Git content in changelog generator [\#73](https://github.com/LucasLarson/gunstage/pull/73) ([LucasLarson](https://github.com/LucasLarson))
 - remove second instance of 🔫 from shell script comments [\#70](https://github.com/LucasLarson/gunstage/pull/70) ([LucasLarson](https://github.com/LucasLarson))
 - remove inactive TypoCI configuration [\#69](https://github.com/LucasLarson/gunstage/pull/69) ([LucasLarson](https://github.com/LucasLarson))
