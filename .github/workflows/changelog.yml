@@ -37,7 +37,8 @@ jobs:
           git config --local user.email "actions@github.com" && \
           git config --local user.name "GitHub" && \
           git add --verbose --all && \
-          git commit --verbose --message '[ci skip] Updating changelog'
+          git commit \
+            --verbose --allow-empty --message '[ci skip] Updating changelog'
       - name: Push changes
         uses: ad-m/github-push-action@v0.6.0
         with:
