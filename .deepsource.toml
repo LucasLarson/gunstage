@@ -1,7 +1,5 @@
 version = 1
 
-exclude_patterns = ["**/*changelog.md"]
-
 [[analyzers]]
 name = "python"
 enabled = true
@@ -78,7 +76,7 @@ enabled = true
 
 [[transformers]]
 name = "prettier"
-enabled = true
+enabled = false
 
 [[transformers]]
 name = "black"
