@@ -6,6 +6,7 @@
 
 **Implemented enhancements:**
 
+- prevent the creation of a `$PATH` that begins with a colon `:` [\#79](https://github.com/LucasLarson/gunstage/pull/79) ([LucasLarson](https://github.com/LucasLarson))
 - use major semver dependency versions where possible [\#76](https://github.com/LucasLarson/gunstage/pull/76) ([LucasLarson](https://github.com/LucasLarson))
 - integrate DeepSource’s expanded offerings into kitchen-sink configuration [\#75](https://github.com/LucasLarson/gunstage/pull/75) ([LucasLarson](https://github.com/LucasLarson))
 - repair Git content in changelog generator [\#73](https://github.com/LucasLarson/gunstage/pull/73) ([LucasLarson](https://github.com/LucasLarson))
