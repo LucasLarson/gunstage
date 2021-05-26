@@ -24,6 +24,7 @@
 
 **Merged pull requests:**
 
+- Update github/super-linter action to v4 [\#87](https://github.com/LucasLarson/gunstage/pull/87) ([renovate[bot]](https://github.com/apps/renovate))
 - Format code with black, gofmt, yapf, autopep8, isort, standardrb, standardjs, prettier, rubocop and google-java-format [\#78](https://github.com/LucasLarson/gunstage/pull/78) ([deepsource-autofix[bot]](https://github.com/apps/deepsource-autofix))
 - repair, tszuj GitHub Super-Linter [\#74](https://github.com/LucasLarson/gunstage/pull/74) ([LucasLarson](https://github.com/LucasLarson))
 - reduce repetition in @Dependabot section headings [\#72](https://github.com/LucasLarson/gunstage/pull/72) ([LucasLarson](https://github.com/LucasLarson))
