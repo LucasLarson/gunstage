@@ -18,7 +18,7 @@
 #
 
 gunstage() {
-  (
+
     # check whether we’re in a Git repository
     # https://stackoverflow.com/a/53809163
     if git rev-parse --is-inside-work-tree >/dev/null 2>&1; then
@@ -54,7 +54,8 @@ gunstage() {
               https://github.com/LucasLarson/gunstage\n\n'
       return "${gunstage}"
     fi
-  )
+
+    unset gunstage
 }
 
 gunstage "$@"
