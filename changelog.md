@@ -6,6 +6,8 @@
 
 **Implemented enhancements:**
 
+- clear variables with `unset` instead of a subshell [\#81](https://github.com/LucasLarson/gunstage/issues/81)
+- use `unset` instead of subshell for local variable \(fix \#81\) [\#90](https://github.com/LucasLarson/gunstage/pull/90) ([LucasLarson](https://github.com/LucasLarson))
 - prevent the creation of a `$PATH` that begins with a colon `:` [\#79](https://github.com/LucasLarson/gunstage/pull/79) ([LucasLarson](https://github.com/LucasLarson))
 - use major semver dependency versions where possible [\#76](https://github.com/LucasLarson/gunstage/pull/76) ([LucasLarson](https://github.com/LucasLarson))
 - integrate DeepSource’s expanded offerings into kitchen-sink configuration [\#75](https://github.com/LucasLarson/gunstage/pull/75) ([LucasLarson](https://github.com/LucasLarson))
