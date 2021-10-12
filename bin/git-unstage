@@ -18,43 +18,44 @@
 #
 
 gunstage() {
-  (
-    # check whether we’re in a Git repository
-    # https://stackoverflow.com/a/53809163
-    if git rev-parse --is-inside-work-tree >/dev/null 2>&1; then
 
-      # run the same command against each argument, if any
-      # otherwise use `.` for everything in the current directory and below
-      for file in "${@:-.}"; do
+  # check whether we’re in a Git repository
+  # https://stackoverflow.com/a/53809163
+  if git rev-parse --is-inside-work-tree >/dev/null 2>&1; then
 
-        # https://github.com/gggritso/gggritso.com/commit/a07b620
-        git reset --quiet HEAD -- "${file}"
+    # run the same command against each argument, if any
+    # otherwise use `.` for everything in the current directory and below
+    for file in "${@:-.}"; do
 
-        # perform a `git status` only if the loop was successful
-      done && git status
+      # https://github.com/gggritso/gggritso.com/commit/a07b620
+      git reset --quiet HEAD -- "${file}"
 
-    else
-      # we’re not in a Git repository
-      # store the failed if as a return status
-      # https://github.com/ohmyzsh/ohmyzsh/pull/9238#discussion_r484806772
-      gunstage=$?
+      # perform a `git status` only if the loop was successful
+    done && git status
 
-      # if called from outside a Git repository, then
-      # provide instructions on how to use it
-      printf 'gunstage must be called from within a Git repository\n'
-      printf 'create a file and a repository, then stage and gunstage:\n
-              touch file && # create a file called '
-      printf '\xe2\x80\x9cfile\xe2\x80\x9d \x5c
-              git init && # make a Git repository if necessary \x5c
-              git add file && git status # stage the file you just created
+  else
+    # we’re not in a Git repository
+    # store the failed if as a return status
+    # https://github.com/ohmyzsh/ohmyzsh/pull/9238#discussion_r484806772
+    gunstage=$?
 
-              # now use \x60gunstage\x60 to unstage the file
-              gunstage file # huzzah.\n\n
-              gunstage # \xf0\x9f\x94\xab \x60git unstage\x60 as a service
-              https://github.com/LucasLarson/gunstage\n\n'
-      return "${gunstage}"
-    fi
-  )
+    # if called from outside a Git repository, then
+    # provide instructions on how to use it
+    printf 'gunstage must be called from within a Git repository\n'
+    printf 'create a file and a repository, then stage and gunstage:\n
+            touch file && # create a file called '
+    printf '\xe2\x80\x9cfile\xe2\x80\x9d \x5c
+            git init && # make a Git repository if necessary \x5c
+            git add file && git status # stage the file you just created
+
+            # now use \x60gunstage\x60 to unstage the file
+            gunstage file # huzzah.\n\n
+            gunstage # \xf0\x9f\x94\xab \x60git unstage\x60 as a service
+            https://github.com/LucasLarson/gunstage\n\n'
+    return "${gunstage}"
+  fi
+
+  unset gunstage
 }
 
 gunstage "$@"
