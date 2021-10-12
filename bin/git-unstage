@@ -27,7 +27,7 @@ gunstage() {
     # otherwise use `.` for everything in the current directory and below
     for file in "${@:-.}"; do
 
-      # https://github.com/gggritso/gggritso.com/commit/a07b620
+      # https://github.com/gggritso/site/commit/a07b620
       git reset --quiet HEAD -- "${file}"
 
       # perform a `git status` only if the loop was successful
