@@ -23,15 +23,27 @@ gunstage() {
   # https://stackoverflow.com/a/53809163
   if git rev-parse --is-inside-work-tree >/dev/null 2>&1; then
 
-    # run the same command against each argument, if any
-    # otherwise use `.` for everything in the current directory and below
-    for file in "${@:-.}"; do
+    case $1 in
+    -A | --all)
 
-      # https://github.com/gggritso/site/commit/a07b620
-      git reset --quiet HEAD -- "${file}"
+      # unstage everything
+      git reset --quiet HEAD -- "$(git rev-parse --show-toplevel)"
+      git status
+      ;;
 
-      # perform a `git status` only if the loop was successful
-    done && git status
+    *)
+      # run the same command against each argument, if any
+      # otherwise use `.` for everything in the current directory and below
+      for file in "${@:-.}"; do
+
+        # https://github.com/gggritso/site/commit/a07b620
+        git reset --quiet HEAD -- "${file}"
+
+        # perform a `git status` only if the loop was successful
+      done && git status
+
+      ;;
+    esac
 
   else
     # we’re not in a Git repository
