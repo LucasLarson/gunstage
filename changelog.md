@@ -6,7 +6,9 @@
 
 **Implemented enhancements:**
 
+- add support for `git unstage --all` [\#89](https://github.com/LucasLarson/gunstage/issues/89)
 - clear variables with `unset` instead of a subshell [\#81](https://github.com/LucasLarson/gunstage/issues/81)
+- add functionality to unstage everything with `gunstage --all` \(fix \#89\) [\#94](https://github.com/LucasLarson/gunstage/pull/94) ([LucasLarson](https://github.com/LucasLarson))
 - use `unset` instead of subshell for local variable \(fix \#81\) [\#90](https://github.com/LucasLarson/gunstage/pull/90) ([LucasLarson](https://github.com/LucasLarson))
 - prevent the creation of a `$PATH` that begins with a colon `:` [\#79](https://github.com/LucasLarson/gunstage/pull/79) ([LucasLarson](https://github.com/LucasLarson))
 - use major semver dependency versions where possible [\#76](https://github.com/LucasLarson/gunstage/pull/76) ([LucasLarson](https://github.com/LucasLarson))
