@@ -2,7 +2,16 @@
 
 ## [Unreleased](https://github.com/LucasLarson/gunstage/tree/HEAD)
 
-[Full Changelog](https://github.com/LucasLarson/gunstage/compare/v1...HEAD)
+[Full Changelog](https://github.com/LucasLarson/gunstage/compare/v1.6.0...HEAD)
+
+**Implemented enhancements:**
+
+- Markdown syntax errors [\#95](https://github.com/LucasLarson/gunstage/issues/95)
+- repair Markdown syntax \(fix \#95\) [\#96](https://github.com/LucasLarson/gunstage/pull/96) ([LucasLarson](https://github.com/LucasLarson))
+
+## [v1.6.0](https://github.com/LucasLarson/gunstage/tree/v1.6.0) (2021-10-22)
+
+[Full Changelog](https://github.com/LucasLarson/gunstage/compare/v1...v1.6.0)
 
 **Implemented enhancements:**
 
