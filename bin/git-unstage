@@ -67,7 +67,7 @@ gunstage() {
     return "${gunstage}"
   fi
 
-  unset gunstage
+  unset file gunstage
 }
 
 gunstage "$@"
