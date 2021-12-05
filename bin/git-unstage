@@ -26,8 +26,11 @@ gunstage() {
     case $1 in
     -A | --all)
 
+      # get top-level directory
+      top_level_directory="$(command git rev-parse --show-toplevel)"
+
       # unstage everything
-      command git reset --quiet HEAD -- "$(command git rev-parse --show-toplevel)"
+      command git reset --quiet HEAD -- "${top_level_directory-}"
       command git status
       ;;
 
@@ -67,7 +70,7 @@ gunstage() {
     return "${gunstage}"
   fi
 
-  unset file gunstage
+  unset top_level_directory file gunstage
 }
 
 gunstage "$@"
