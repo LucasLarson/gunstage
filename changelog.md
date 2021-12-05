@@ -6,7 +6,9 @@
 
 **Implemented enhancements:**
 
+- commands not prepended by `command` can produce unexpected behavior [\#97](https://github.com/LucasLarson/gunstage/issues/97)
 - Markdown syntax errors [\#95](https://github.com/LucasLarson/gunstage/issues/95)
+- use `command` to avoid unexpected behavior \(fix \#97\) [\#98](https://github.com/LucasLarson/gunstage/pull/98) ([LucasLarson](https://github.com/LucasLarson))
 - repair Markdown syntax \(fix \#95\) [\#96](https://github.com/LucasLarson/gunstage/pull/96) ([LucasLarson](https://github.com/LucasLarson))
 
 ## [v1.6.0](https://github.com/LucasLarson/gunstage/tree/v1.6.0) (2021-10-22)
