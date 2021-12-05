@@ -52,7 +52,7 @@ gunstage() {
     # we’re not in a Git repository
     # store the failed if as a return status
     # https://github.com/ohmyzsh/ohmyzsh/pull/9238#discussion_r484806772
-    return_value=$?
+    return_value="$?"
 
     # if called from outside a Git repository, then
     # provide instructions on how to use it
