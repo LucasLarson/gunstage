@@ -21,7 +21,7 @@
 # by adding `bin` directory to `PATH`
 # without adding an initial colon `:` to `PATH`
 # https://unix.stackexchange.com/a/415028
-PATH=${PATH:+${PATH}:}$(dirname "$0")/bin
+PATH=${PATH:+${PATH}:}$(command dirname "$0")/bin
 export PATH
 
 # keep backwards compatibility
