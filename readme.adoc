@@ -106,3 +106,10 @@ I tested `gunstage` atop Zsh&nbsp;5.8 and Bash&nbsp;3.2 using&nbsp;Git:
 
 From macOS, I use https://github.com/gnachman/iTerm2[iTerm2^]; from iOS, I
 use&nbsp;https://github.com/ish-app/ish[iSH^].
+
+Credit
+~~~~~~
+This repository’s
+https://web.archive.org/web/20220120220252/socialsharepreview.com/?url=https%3A%2F%2Fgithub.com%2FLucasLarson%2Fgunstage[preview
+image^] was created by
+https://github.com/twitter/twemoji/blob/7c1d3e9/2/svg/1f52b.svg[Twitter^].
