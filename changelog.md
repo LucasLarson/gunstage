@@ -11,6 +11,14 @@
 - use `command` to avoid unexpected behavior \(fix \#97\) [\#98](https://github.com/LucasLarson/gunstage/pull/98) ([LucasLarson](https://github.com/LucasLarson))
 - repair Markdown syntax \(fix \#95\) [\#96](https://github.com/LucasLarson/gunstage/pull/96) ([LucasLarson](https://github.com/LucasLarson))
 
+**Closed issues:**
+
+- there’s no attribution for the social media preview image [\#99](https://github.com/LucasLarson/gunstage/issues/99)
+
+**Merged pull requests:**
+
+- add credit for pistol icon \(fix \#99\) [\#100](https://github.com/LucasLarson/gunstage/pull/100) ([LucasLarson](https://github.com/LucasLarson))
+
 ## [v1.6.0](https://github.com/LucasLarson/gunstage/tree/v1.6.0) (2021-10-22)
 
 [Full Changelog](https://github.com/LucasLarson/gunstage/compare/v1...v1.6.0)
