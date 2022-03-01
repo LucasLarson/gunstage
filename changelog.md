@@ -17,6 +17,7 @@
 
 **Merged pull requests:**
 
+- bump actions/checkout action from v2 to v3 [\#101](https://github.com/LucasLarson/gunstage/pull/101) ([renovate[bot]](https://github.com/apps/renovate))
 - add credit for pistol icon \(fix \#99\) [\#100](https://github.com/LucasLarson/gunstage/pull/100) ([LucasLarson](https://github.com/LucasLarson))
 
 ## [v1.6.0](https://github.com/LucasLarson/gunstage/tree/v1.6.0) (2021-10-22)
