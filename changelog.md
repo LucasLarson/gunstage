@@ -6,6 +6,7 @@
 
 **Implemented enhancements:**
 
+- add a `Mentioned in Awesome` button [\#102](https://github.com/LucasLarson/gunstage/issues/102)
 - commands not prepended by `command` can produce unexpected behavior [\#97](https://github.com/LucasLarson/gunstage/issues/97)
 - Markdown syntax errors [\#95](https://github.com/LucasLarson/gunstage/issues/95)
 - use `command` to avoid unexpected behavior \(fix \#97\) [\#98](https://github.com/LucasLarson/gunstage/pull/98) ([LucasLarson](https://github.com/LucasLarson))
@@ -17,6 +18,7 @@
 
 **Merged pull requests:**
 
+- add a Mentioned in Awesome button \(\#104\) \(fix \#102\) [\#104](https://github.com/LucasLarson/gunstage/pull/104) ([RishiKumarRay](https://github.com/RishiKumarRay))
 - bump actions/checkout action from v2 to v3 [\#101](https://github.com/LucasLarson/gunstage/pull/101) ([renovate[bot]](https://github.com/apps/renovate))
 - add credit for pistol icon \(fix \#99\) [\#100](https://github.com/LucasLarson/gunstage/pull/100) ([LucasLarson](https://github.com/LucasLarson))
 
