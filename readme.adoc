@@ -2,7 +2,8 @@ gunstage
 --------
 
 🔫 `git unstage` as a service
-
+link:https://github.com/unixorn/awesome-zsh-plugins[image:https://github.com/sindresorhus/awesome/raw/a90737eb91368b3be912d1759f9573203ef9e70d/media/mentioned-badge.svg[🕶
+Mentioned in Awesome,title="🕶 Mentioned in Awesome"]]
 https://github.com/LucasLarson/gunstage/actions?query=workflow:Super-Linter[image:https://img.shields.io/github/workflow/status/LucasLarson/gunstage/Super-Linter?logo=GitHub&label=Super-Linter[GitHub
 Super-Linter]]
 https://github.com/LucasLarson/gunstage/blob/main/license.adoc[image:https://img.shields.io/badge/license-GPLP-blue[GPLP,title="GNU
