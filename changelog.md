@@ -18,6 +18,7 @@
 
 **Merged pull requests:**
 
+- bump `actions/cache` action from v2 to v3 [\#106](https://github.com/LucasLarson/gunstage/pull/106) ([dependabot[bot]](https://github.com/apps/dependabot))
 - add a Mentioned in Awesome button \(\#104\) \(fix \#102\) [\#104](https://github.com/LucasLarson/gunstage/pull/104) ([RishiKumarRay](https://github.com/RishiKumarRay))
 - bump actions/checkout action from v2 to v3 [\#101](https://github.com/LucasLarson/gunstage/pull/101) ([renovate[bot]](https://github.com/apps/renovate))
 - add credit for pistol icon \(fix \#99\) [\#100](https://github.com/LucasLarson/gunstage/pull/100) ([LucasLarson](https://github.com/LucasLarson))
