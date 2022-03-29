@@ -1,0 +1,17 @@
+---
+cff-version: 1.2.0
+message: "Cite this software by using this metadata."
+title: gunstage
+abstract: |
+  `gunstage` or `git unstage` is a command-line tool for unstaging files in a
+  Git repository without the need to memorize the many ways Git recommends it
+  be done and when.
+authors:
+  - given-names: Lucas
+    family-names: Larson
+    orcid: https://orcid.org/0000-0002-0317-5426
+version: 1.6.0
+date-released: 2021-10-22
+license: GPL-3.0-or-later
+url: https://github.com/LucasLarson/gunstage
+repository-code: https://github.com/LucasLarson/gunstage
