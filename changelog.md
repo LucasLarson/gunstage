@@ -2,7 +2,19 @@
 
 ## [Unreleased](https://github.com/LucasLarson/gunstage/tree/HEAD)
 
-[Full Changelog](https://github.com/LucasLarson/gunstage/compare/v1.6.0...HEAD)
+[Full Changelog](https://github.com/LucasLarson/gunstage/compare/v1.7.0...HEAD)
+
+**Fixed bugs:**
+
+- `git.io` deprecation [\#108](https://github.com/LucasLarson/gunstage/issues/108)
+
+**Merged pull requests:**
+
+- remove `git.io` links \(fix \#108\) [\#109](https://github.com/LucasLarson/gunstage/pull/109) ([LucasLarson](https://github.com/LucasLarson))
+
+## [v1.7.0](https://github.com/LucasLarson/gunstage/tree/v1.7.0) (2022-03-29)
+
+[Full Changelog](https://github.com/LucasLarson/gunstage/compare/v1.6.0...v1.7.0)
 
 **Implemented enhancements:**
 
