@@ -10,7 +10,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     timeout-minutes: 4
-    if: "!contains(github.event.head_commit.message, '[ci skip]')"
+    if: "!contains(github.event.head_commit.message, 'update changelog')"
     steps:
       - uses: actions/checkout@v3
       - name: Set up Ruby
@@ -25,22 +25,43 @@ jobs:
             ${{ runner.os }}-gem-
       - name: Create local changes
         run: |
-          gem install github_changelog_generator
-          github_changelog_generator \
-          -u ${{ github.repository_owner }} \
-          -p "$(git rev-parse --show-toplevel | xargs basename)" \
-          -t ${{ secrets.GITHUB_TOKEN }} \
-          --exclude-labels duplicate,question,invalid,wontfix,nodoc \
-          --output changelog.md
+          command gem install github_changelog_generator
+          command github_changelog_generator \
+            --user "$(
+              command git config --get-regexp -- 'remote.*url' |
+                command sed -E -e 's/(git@|https:..)//' |
+                command sed -e 's/:/\//' |
+                command sed -e 's/\.git$//' |
+                command awk -F '/' '{print $2}' |
+                LC_ALL='C' command sort -u
+            )" \
+            --project "$(
+              command git remote get-url "$(
+                {
+                  command git config --get --worktree checkout.defaultRemote ||
+                    command git config --get --local checkout.defaultRemote ||
+                    command git config --get --system checkout.defaultRemote ||
+                    command git config --get --global checkout.defaultRemote ||
+                    printf "origin\n"
+                } 2>/dev/null
+              )" |
+                command tr -d "[:space:]" |
+                command xargs basename |
+                command sed -e "s|.git$||"
+            )" \
+            --token ${{ secrets.GITHUB_TOKEN || secrets.PAT }} \
+            --exclude-labels duplicate,question,invalid,wontfix,nodoc \
+            --output changelog.md
       - name: Commit files
         run: |
-          git config --local user.email "actions@github.com" && \
-          git config --local user.name "GitHub" && \
-          git add --verbose --all && \
-          git commit \
-            --verbose --allow-empty --message '[ci skip] Updating changelog'
+          command git config -- user.email 'actions@github.com'
+          command git config -- user.name 'GitHub'
+          command git add --verbose --all
+          command git commit --verbose \
+            --message='update changelog' ||
+            exit 0
       - name: Push changes
         uses: ad-m/github-push-action@v0.6.0
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          github_token: ${{ secrets.GITHUB_TOKEN || secrets.PAT }}
           branch: ${{ github.ref }}
