@@ -1,8 +1,8 @@
 # Changelog
 
-## [Unreleased](https://github.com/LucasLarson/gunstage/tree/HEAD)
+## [v1.7.1](https://github.com/LucasLarson/gunstage/tree/v1.7.1) (2022-05-25)
 
-[Full Changelog](https://github.com/LucasLarson/gunstage/compare/v1.7.0...HEAD)
+[Full Changelog](https://github.com/LucasLarson/gunstage/compare/v1.7.0...v1.7.1)
 
 **Fixed bugs:**
 
