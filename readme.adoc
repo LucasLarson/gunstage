@@ -9,6 +9,8 @@ https://github.com/LucasLarson/gunstage/actions?query=workflow:Super-Linter[imag
 Super-Linter]]
 https://github.com/LucasLarson/gunstage/blob/main/license.adoc[image:https://img.shields.io/badge/license-GPLP-blue[GPLP,title="GNU
 General Public License for Pedants"]]
+https://doi.org/10.5281/zenodo.6581324[image:https://zenodo.org/badge/293950625.svg[doi:10.5281/zenodo.6581324,title="Digital
+Object Identifier"]]
 
 What
 ~~~~
