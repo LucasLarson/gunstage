@@ -1,5 +1,9 @@
 # Changelog
 
+## [v1.8.2](https://github.com/LucasLarson/gunstage/tree/v1.8.2) (2022-05-25)
+
+[Full Changelog](https://github.com/LucasLarson/gunstage/compare/v1.8.1...v1.8.2)
+
 ## [v1.8.1](https://github.com/LucasLarson/gunstage/tree/v1.8.1) (2022-05-25)
 
 [Full Changelog](https://github.com/LucasLarson/gunstage/compare/v1.8.0...v1.8.1)
