@@ -4,6 +4,10 @@
 
 [Full Changelog](https://github.com/LucasLarson/gunstage/compare/v1.8.2...HEAD)
 
+**Implemented enhancements:**
+
+- bump Contributor Covenant Code of Conduct from v2.0 to v2.1 [\#111](https://github.com/LucasLarson/gunstage/pull/111) ([LucasLarson](https://github.com/LucasLarson))
+
 **Fixed bugs:**
 
 - the changelog fails Super-Linter’s `markdownlint` [\#112](https://github.com/LucasLarson/gunstage/issues/112)
