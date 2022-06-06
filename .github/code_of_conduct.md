@@ -12,7 +12,6 @@ identity and&nbsp;orientation.
 We pledge to act and interact in ways that contribute to an open, welcoming,
 diverse, inclusive, and healthy&nbsp;community.
 
-- [Our Pledge](#our-pledge)
 - [Our Standards](#our-standards)
 - [Enforcement Responsibilities](#enforcement-responsibilities)
 - [Scope](#scope)
