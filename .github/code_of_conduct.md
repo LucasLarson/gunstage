@@ -12,8 +12,6 @@ identity and&nbsp;orientation.
 We pledge to act and interact in ways that contribute to an open, welcoming,
 diverse, inclusive, and healthy&nbsp;community.
 
-<!-- TOC depthFrom:2 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
-
 - [Our Pledge](#our-pledge)
 - [Our Standards](#our-standards)
 - [Enforcement Responsibilities](#enforcement-responsibilities)
@@ -25,8 +23,6 @@ diverse, inclusive, and healthy&nbsp;community.
   1. [Temporary Ban](#3-temporary-ban)
   1. [Permanent Ban](#4-permanent-ban)
 - [Attribution](#attribution)
-
-<!-- /TOC -->
 
 ## Our Standards
 
