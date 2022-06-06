@@ -11,15 +11,7 @@ name: Super-Linter
 # Start the job on all push #
 #############################
 on:
-  # Trigger the workflow on push
-  # or pull request,
-  # but only for the main branch
   push:
-    branches: [main]
-    # branches-ignore: [dev]
-    # Uncomment the line above to skip running on pushes to `dev`
-  pull_request:
-    branches: [main]
 
 ###############
 # Set the Job #
