@@ -74,7 +74,7 @@ jobs:
             -name 'CHANGE*LOG*' \
             ')' \
             -print \
-            -exec npx markdownlint --fix -- '{}' ';'
+            -exec npm exec -- markdownlint --fix -- '{}' ';'
       - name: Commit files
         run: |
           command git config -- user.email 'actions@github.com'
