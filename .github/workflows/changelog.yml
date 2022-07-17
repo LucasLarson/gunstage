@@ -29,7 +29,8 @@ jobs:
           command github_changelog_generator \
             --user "$(
               command git config --get-regexp -- 'remote.*url' |
-                command sed -E -e 's/(git@|https:\/\/)//' \
+                command sed -E \
+                  -e 's/(git@|https:\/\/)//' \
                   -e 's/:/\//' \
                   -e 's/\.git$//' |
                 command awk -F '/' '{print $2}' |
