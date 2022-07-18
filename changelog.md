@@ -13,6 +13,10 @@
 - the changelog fails Super-Linter’s `markdownlint` [\#112](https://github.com/LucasLarson/gunstage/issues/112)
 - add `markdownlint` to changelog workflow [\#113](https://github.com/LucasLarson/gunstage/pull/113) ([LucasLarson](https://github.com/LucasLarson))
 
+**Merged pull requests:**
+
+- expand Dependabot [\#115](https://github.com/LucasLarson/gunstage/pull/115) ([LucasLarson](https://github.com/LucasLarson))
+
 ## [v1.8.2](https://github.com/LucasLarson/gunstage/tree/v1.8.2) (2022-05-25)
 
 [Full Changelog](https://github.com/LucasLarson/gunstage/compare/v1.8.1...v1.8.2)
