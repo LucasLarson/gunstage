@@ -6,6 +6,8 @@
 
 **Implemented enhancements:**
 
+- add mechanism to return current version number [\#117](https://github.com/LucasLarson/gunstage/issues/117)
+- add mechanism to return version number \(\#117\) [\#120](https://github.com/LucasLarson/gunstage/pull/120) ([LucasLarson](https://github.com/LucasLarson))
 - repair changelog credit [\#118](https://github.com/LucasLarson/gunstage/pull/118) ([LucasLarson](https://github.com/LucasLarson))
 - bump Contributor Covenant Code of Conduct from v2.0 to v2.1 [\#111](https://github.com/LucasLarson/gunstage/pull/111) ([LucasLarson](https://github.com/LucasLarson))
 
