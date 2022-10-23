@@ -34,6 +34,14 @@ gunstage() {
       command git status
       ;;
 
+    -V | --version)
+      command git --git-dir="$(
+        command -v -- git-unstage |
+          command sed -e 's/\(.*\)bin\/git-unstage/\1.git/'
+      )" describe --tags
+      exit 0
+      ;;
+
     *)
       # run the same command against each argument, if any
       # otherwise use `.` for everything in the current directory and below
