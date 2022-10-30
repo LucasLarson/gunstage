@@ -1,11 +1,12 @@
 # Changelog
 
-## [Unreleased](https://github.com/LucasLarson/gunstage/tree/HEAD)
+## [v1.9.1](https://github.com/LucasLarson/gunstage/tree/v1.9.1) (2022-10-30)
 
-[Full Changelog](https://github.com/LucasLarson/gunstage/compare/v1.9.0...HEAD)
+[Full Changelog](https://github.com/LucasLarson/gunstage/compare/v1.9.0...v1.9.1)
 
 **Implemented enhancements:**
 
+- add DeepSource flair [\#121](https://github.com/LucasLarson/gunstage/issues/121)
 - add mechanism to return version number \(\#117\) [\#120](https://github.com/LucasLarson/gunstage/pull/120) ([LucasLarson](https://github.com/LucasLarson))
 - repair changelog credit [\#118](https://github.com/LucasLarson/gunstage/pull/118) ([LucasLarson](https://github.com/LucasLarson))
 - bump Contributor Covenant Code of Conduct from v2.0 to v2.1 [\#111](https://github.com/LucasLarson/gunstage/pull/111) ([LucasLarson](https://github.com/LucasLarson))
@@ -13,6 +14,10 @@
 **Fixed bugs:**
 
 - add `markdownlint` to changelog workflow [\#113](https://github.com/LucasLarson/gunstage/pull/113) ([LucasLarson](https://github.com/LucasLarson))
+
+**Closed issues:**
+
+- calling `gunstage` from outside a repository returns a success exit code [\#119](https://github.com/LucasLarson/gunstage/issues/119)
 
 **Merged pull requests:**
 
