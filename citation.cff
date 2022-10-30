@@ -10,8 +10,8 @@ authors:
   - given-names: Lucas
     family-names: Larson
     orcid: https://orcid.org/0000-0002-0317-5426
-version: 1.9.0
-date-released: 2022-10-23
+version: 1.9.1
+date-released: 2022-10-30
 license: GPL-3.0-or-later
 url: https://github.com/LucasLarson/gunstage
 repository-code: https://github.com/LucasLarson/gunstage
