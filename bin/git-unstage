@@ -67,13 +67,13 @@ gunstage() {
     printf 'gunstage must be called from within a Git repository\n'
     printf 'create a file and a repository, then stage and gunstage:\n
             touch file && # create a file called '
-    printf '\xe2\x80\x9cfile\xe2\x80\x9d \x5c
-            git init && # make a Git repository if necessary \x5c
+    printf '\342\200\234file\342\200\235 \134
+            git init && # make a Git repository if necessary \134
             git add file && git status # stage the file you just created
 
-            # now use \x60gunstage\x60 to unstage the file
+            # now use \140gunstage\140 to unstage the file
             gunstage file # huzzah.\n\n
-            gunstage # \xf0\x9f\x94\xab \x60git unstage\x60 as a service
+            gunstage # \360\237\224\253 \140git unstage\140 as a service
             https://github.com/LucasLarson/gunstage\n\n'
     return "${return_value}"
   fi
