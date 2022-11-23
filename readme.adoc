@@ -92,6 +92,16 @@ https://github.com/mcornella/dotfiles/blob/51feef648a2d68a82348ed4753ac3d6b65972
 low-tech as possible^] while performing sophisticated work to do one thing and
 do it well: `git unstage`.
 
+Installation
+^^^^^^^^^^^^
+`gunstage` can be
+https://gist.github.com/06009589d7887617e061481e22cf5a4a[installed as a
+plugin^] or you can just clone this repository, run the following command, and
+then restart your terminal:
+[source,zsh]
+$ printf '%s\n' '. /path/to/gunstage.plugin.zsh' \
+  >>"${HOME-}"'/.'"${SHELL##*[-./]}"'rc'
+
 Requirements
 ~~~~~~~~~~~~
 * https://github.com/zsh-users/zsh/tree/zsh-5.8[Zsh&nbsp;5.8^] (or
