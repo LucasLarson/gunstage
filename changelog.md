@@ -1,8 +1,8 @@
 # Changelog
 
-## [Unreleased](https://github.com/LucasLarson/gunstage/tree/HEAD)
+## [v1.9.2](https://github.com/LucasLarson/gunstage/tree/v1.9.2) (2022-11-24)
 
-[Full Changelog](https://github.com/LucasLarson/gunstage/compare/v1.9.1...HEAD)
+[Full Changelog](https://github.com/LucasLarson/gunstage/compare/v1.9.1...v1.9.2)
 
 **Implemented enhancements:**
 
