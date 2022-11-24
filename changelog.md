@@ -1,5 +1,13 @@
 # Changelog
 
+## [v1.9.2](https://github.com/LucasLarson/gunstage/tree/v1.9.2) (2022-11-24)
+
+[Full Changelog](https://github.com/LucasLarson/gunstage/compare/v1.9.1...v1.9.2)
+
+**Implemented enhancements:**
+
+- installation instructions [\#110](https://github.com/LucasLarson/gunstage/issues/110)
+
 ## [v1.9.1](https://github.com/LucasLarson/gunstage/tree/v1.9.1) (2022-10-30)
 
 [Full Changelog](https://github.com/LucasLarson/gunstage/compare/v1.9.0...v1.9.1)
