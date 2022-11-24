@@ -1,5 +1,13 @@
 # Changelog
 
+## [Unreleased](https://github.com/LucasLarson/gunstage/tree/HEAD)
+
+[Full Changelog](https://github.com/LucasLarson/gunstage/compare/v1.9.2...HEAD)
+
+**Merged pull requests:**
+
+- add installation instructions \(\#110\) [\#122](https://github.com/LucasLarson/gunstage/pull/122) ([LucasLarson](https://github.com/LucasLarson))
+
 ## [v1.9.2](https://github.com/LucasLarson/gunstage/tree/v1.9.2) (2022-11-24)
 
 [Full Changelog](https://github.com/LucasLarson/gunstage/compare/v1.9.1...v1.9.2)
