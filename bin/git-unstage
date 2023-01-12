@@ -34,6 +34,13 @@ gunstage() {
       command git status
       ;;
 
+    --new)
+      # unstage only new files
+      command git diff --cached --diff-filter=A --name-only --relative | while IFS='' read -r file; do
+        command git reset --quiet HEAD -- "${file-}"
+      done && command git status
+      ;;
+
     -V | --version)
       command git --git-dir="$(
         command -v -- git-unstage |
