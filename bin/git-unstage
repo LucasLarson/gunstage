@@ -71,9 +71,9 @@ gunstage() {
 
     # if called from outside a Git repository, then
     # provide instructions on how to use it
-    printf 'gunstage must be called from within a Git repository\n'
+    printf 'gunstage must be called from within a Git repository\n' >&2
     printf 'create a file and a repository, then stage and gunstage:\n
-            touch file && # create a file called '
+            touch file && # create a file called ' >&2
     printf '\342\200\234file\342\200\235 \134
             git init && # make a Git repository if necessary \134
             git add file && git status # stage the file you just created
@@ -81,7 +81,7 @@ gunstage() {
             # now use \140gunstage\140 to unstage the file
             gunstage file # huzzah.\n\n
             gunstage # \360\237\224\253 \140git unstage\140 as a service
-            https://github.com/LucasLarson/gunstage\n\n'
+            https://github.com/LucasLarson/gunstage\n\n' >&2
     return "${return_value}"
   fi
 
