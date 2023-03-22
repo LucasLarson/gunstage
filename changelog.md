@@ -1,5 +1,17 @@
 # Changelog
 
+## [Unreleased](https://github.com/LucasLarson/gunstage/tree/HEAD)
+
+[Full Changelog](https://github.com/LucasLarson/gunstage/compare/v1.10.0...HEAD)
+
+**Implemented enhancements:**
+
+- add fig installation instructions [\#123](https://github.com/LucasLarson/gunstage/issues/123)
+
+**Merged pull requests:**
+
+- add fig installation link [\#124](https://github.com/LucasLarson/gunstage/pull/124) ([LucasLarson](https://github.com/LucasLarson))
+
 ## [v1.10.0](https://github.com/LucasLarson/gunstage/tree/v1.10.0) (2023-01-12)
 
 [Full Changelog](https://github.com/LucasLarson/gunstage/compare/v1.9.3...v1.10.0)
