@@ -10,6 +10,7 @@
 
 **Merged pull requests:**
 
+- bump github/super-linter from 4 to 5 [\#126](https://github.com/LucasLarson/gunstage/pull/126) ([dependabot[bot]](https://github.com/apps/dependabot))
 - add fig installation link [\#124](https://github.com/LucasLarson/gunstage/pull/124) ([LucasLarson](https://github.com/LucasLarson))
 
 ## [v1.10.0](https://github.com/LucasLarson/gunstage/tree/v1.10.0) (2023-01-12)
