@@ -10,6 +10,7 @@
 
 **Merged pull requests:**
 
+- ensure `root` `$HOME` expands to `/` [\#127](https://github.com/LucasLarson/gunstage/pull/127) ([LucasLarson](https://github.com/LucasLarson))
 - bump github/super-linter from 4 to 5 [\#126](https://github.com/LucasLarson/gunstage/pull/126) ([dependabot[bot]](https://github.com/apps/dependabot))
 - add fig installation link [\#124](https://github.com/LucasLarson/gunstage/pull/124) ([LucasLarson](https://github.com/LucasLarson))
 
