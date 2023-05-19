@@ -10,8 +10,9 @@
 
 **Merged pull requests:**
 
+- repair AsciiDoc code blocks [\#128](https://github.com/LucasLarson/gunstage/pull/128) ([LucasLarson](https://github.com/LucasLarson))
 - ensure `root` `$HOME` expands to `/` [\#127](https://github.com/LucasLarson/gunstage/pull/127) ([LucasLarson](https://github.com/LucasLarson))
-- bump github/super-linter from 4 to 5 [\#126](https://github.com/LucasLarson/gunstage/pull/126) ([dependabot[bot]](https://github.com/apps/dependabot))
+- bump github/super-linter from 4 to 5 [\#126](https://github.com/LucasLarson/gunstage/pull/126) ([dependabot[bot]](<https://github.com/apps/dependabot>))
 - add fig installation link [\#124](https://github.com/LucasLarson/gunstage/pull/124) ([LucasLarson](https://github.com/LucasLarson))
 
 ## [v1.10.0](https://github.com/LucasLarson/gunstage/tree/v1.10.0) (2023-01-12)
@@ -112,9 +113,9 @@
 
 **Merged pull requests:**
 
-- bump `actions/cache` action from v2 to v3 [\#106](https://github.com/LucasLarson/gunstage/pull/106) ([dependabot[bot]](https://github.com/apps/dependabot))
+- bump `actions/cache` action from v2 to v3 [\#106](https://github.com/LucasLarson/gunstage/pull/106) ([dependabot[bot]](<https://github.com/apps/dependabot>))
 - add a Mentioned in Awesome button \(\#104\) \(fix \#102\) [\#104](https://github.com/LucasLarson/gunstage/pull/104) ([RishiKumarRay](https://github.com/RishiKumarRay))
-- bump actions/checkout action from v2 to v3 [\#101](https://github.com/LucasLarson/gunstage/pull/101) ([renovate[bot]](https://github.com/apps/renovate))
+- bump actions/checkout action from v2 to v3 [\#101](https://github.com/LucasLarson/gunstage/pull/101) ([renovate[bot]](<https://github.com/apps/renovate>))
 - add credit for pistol icon \(fix \#99\) [\#100](https://github.com/LucasLarson/gunstage/pull/100) ([LucasLarson](https://github.com/LucasLarson))
 
 ## [v1.6.0](https://github.com/LucasLarson/gunstage/tree/v1.6.0) (2021-10-22)
@@ -146,21 +147,21 @@
 
 **Merged pull requests:**
 
-- Update github/super-linter action to v4 [\#87](https://github.com/LucasLarson/gunstage/pull/87) ([renovate[bot]](https://github.com/apps/renovate))
-- Format code with black, gofmt, yapf, autopep8, isort, standardrb, standardjs, prettier, rubocop and google-java-format [\#78](https://github.com/LucasLarson/gunstage/pull/78) ([deepsource-autofix[bot]](https://github.com/apps/deepsource-autofix))
+- Update github/super-linter action to v4 [\#87](https://github.com/LucasLarson/gunstage/pull/87) ([renovate[bot]](<https://github.com/apps/renovate>))
+- Format code with black, gofmt, yapf, autopep8, isort, standardrb, standardjs, prettier, rubocop and google-java-format [\#78](https://github.com/LucasLarson/gunstage/pull/78) ([deepsource-autofix[bot]](<https://github.com/apps/deepsource-autofix>))
 - repair, tszuj GitHub Super-Linter [\#74](https://github.com/LucasLarson/gunstage/pull/74) ([LucasLarson](https://github.com/LucasLarson))
 - reduce repetition in @Dependabot section headings [\#72](https://github.com/LucasLarson/gunstage/pull/72) ([LucasLarson](https://github.com/LucasLarson))
 - replace deprecated `actions/setup-ruby` with `ruby/setup-ruby` \(fix \#62\) [\#63](https://github.com/LucasLarson/gunstage/pull/63) ([LucasLarson](https://github.com/LucasLarson))
-- Update github/super-linter action to v3.16.2 [\#61](https://github.com/LucasLarson/gunstage/pull/61) ([renovate[bot]](https://github.com/apps/renovate))
-- Update github/super-linter action to v3.16.1 [\#60](https://github.com/LucasLarson/gunstage/pull/60) ([renovate[bot]](https://github.com/apps/renovate))
-- Update ibiqlik/action-yamllint action to v3.0.1 [\#58](https://github.com/LucasLarson/gunstage/pull/58) ([renovate[bot]](https://github.com/apps/renovate))
-- Update actions/cache action to v2.1.5 [\#57](https://github.com/LucasLarson/gunstage/pull/57) ([renovate[bot]](https://github.com/apps/renovate))
-- Update github/super-linter action to v3.15.5 [\#56](https://github.com/LucasLarson/gunstage/pull/56) ([renovate[bot]](https://github.com/apps/renovate))
-- Update github/super-linter action to v3.15.3 [\#54](https://github.com/LucasLarson/gunstage/pull/54) ([renovate[bot]](https://github.com/apps/renovate))
-- Update github/super-linter action to v3.15.2 [\#52](https://github.com/LucasLarson/gunstage/pull/52) ([renovate[bot]](https://github.com/apps/renovate))
-- Update actions/setup-ruby action to v1.1.3 [\#49](https://github.com/LucasLarson/gunstage/pull/49) ([renovate[bot]](https://github.com/apps/renovate))
-- Update actions/cache action to v2.1.4 [\#48](https://github.com/LucasLarson/gunstage/pull/48) ([renovate[bot]](https://github.com/apps/renovate))
-- Update github/super-linter action to v3.14.5 [\#47](https://github.com/LucasLarson/gunstage/pull/47) ([renovate[bot]](https://github.com/apps/renovate))
+- Update github/super-linter action to v3.16.2 [\#61](https://github.com/LucasLarson/gunstage/pull/61) ([renovate[bot]](<https://github.com/apps/renovate>))
+- Update github/super-linter action to v3.16.1 [\#60](https://github.com/LucasLarson/gunstage/pull/60) ([renovate[bot]](<https://github.com/apps/renovate>))
+- Update ibiqlik/action-yamllint action to v3.0.1 [\#58](https://github.com/LucasLarson/gunstage/pull/58) ([renovate[bot]](<https://github.com/apps/renovate>))
+- Update actions/cache action to v2.1.5 [\#57](https://github.com/LucasLarson/gunstage/pull/57) ([renovate[bot]](<https://github.com/apps/renovate>))
+- Update github/super-linter action to v3.15.5 [\#56](https://github.com/LucasLarson/gunstage/pull/56) ([renovate[bot]](<https://github.com/apps/renovate>))
+- Update github/super-linter action to v3.15.3 [\#54](https://github.com/LucasLarson/gunstage/pull/54) ([renovate[bot]](<https://github.com/apps/renovate>))
+- Update github/super-linter action to v3.15.2 [\#52](https://github.com/LucasLarson/gunstage/pull/52) ([renovate[bot]](<https://github.com/apps/renovate>))
+- Update actions/setup-ruby action to v1.1.3 [\#49](https://github.com/LucasLarson/gunstage/pull/49) ([renovate[bot]](<https://github.com/apps/renovate>))
+- Update actions/cache action to v2.1.4 [\#48](https://github.com/LucasLarson/gunstage/pull/48) ([renovate[bot]](<https://github.com/apps/renovate>))
+- Update github/super-linter action to v3.14.5 [\#47](https://github.com/LucasLarson/gunstage/pull/47) ([renovate[bot]](<https://github.com/apps/renovate>))
 
 ## [v1](https://github.com/LucasLarson/gunstage/tree/v1) (2021-01-25)
 
@@ -197,9 +198,9 @@
 
 **Merged pull requests:**
 
-- Update github/super-linter action to v3.14.4 [\#42](https://github.com/LucasLarson/gunstage/pull/42) ([renovate[bot]](https://github.com/apps/renovate))
-- Update github/super-linter action to v3.14.3 [\#39](https://github.com/LucasLarson/gunstage/pull/39) ([renovate[bot]](https://github.com/apps/renovate))
-- Update github/super-linter action to v3.14.0 [\#38](https://github.com/LucasLarson/gunstage/pull/38) ([renovate[bot]](https://github.com/apps/renovate))
+- Update github/super-linter action to v3.14.4 [\#42](https://github.com/LucasLarson/gunstage/pull/42) ([renovate[bot]](<https://github.com/apps/renovate>))
+- Update github/super-linter action to v3.14.3 [\#39](https://github.com/LucasLarson/gunstage/pull/39) ([renovate[bot]](<https://github.com/apps/renovate>))
+- Update github/super-linter action to v3.14.0 [\#38](https://github.com/LucasLarson/gunstage/pull/38) ([renovate[bot]](<https://github.com/apps/renovate>))
 - remove gaurav-nelson/github-action-markdown-link-check workflow [\#36](https://github.com/LucasLarson/gunstage/pull/36) ([LucasLarson](https://github.com/LucasLarson))
 
 ## [v1.3.0](https://github.com/LucasLarson/gunstage/tree/v1.3.0) (2020-11-12)
@@ -212,9 +213,9 @@
 
 **Merged pull requests:**
 
-- Update ibiqlik/action-yamllint action to v3 [\#34](https://github.com/LucasLarson/gunstage/pull/34) ([renovate[bot]](https://github.com/apps/renovate))
+- Update ibiqlik/action-yamllint action to v3 [\#34](https://github.com/LucasLarson/gunstage/pull/34) ([renovate[bot]](<https://github.com/apps/renovate>))
 - Make gunstage also work as `git unstage` [\#32](https://github.com/LucasLarson/gunstage/pull/32) ([unixorn](https://github.com/unixorn))
-- Restyle repair changelog links [\#31](https://github.com/LucasLarson/gunstage/pull/31) ([restyled-io[bot]](https://github.com/apps/restyled-io))
+- Restyle repair changelog links [\#31](https://github.com/LucasLarson/gunstage/pull/31) ([restyled-io[bot]](<https://github.com/apps/restyled-io>))
 - repair changelog links [\#30](https://github.com/LucasLarson/gunstage/pull/30) ([LucasLarson](https://github.com/LucasLarson))
 
 ## [v1.2.1](https://github.com/LucasLarson/gunstage/tree/v1.2.1) (2020-11-07)
@@ -228,10 +229,10 @@
 **Merged pull requests:**
 
 - repair cross-OS compatibility \(fix \#27\) [\#29](https://github.com/LucasLarson/gunstage/pull/29) ([LucasLarson](https://github.com/LucasLarson))
-- Update actions/cache action to v2.1.3 [\#26](https://github.com/LucasLarson/gunstage/pull/26) ([renovate[bot]](https://github.com/apps/renovate))
-- Update actions/checkout action to v2.3.4 [\#23](https://github.com/LucasLarson/gunstage/pull/23) ([renovate[bot]](https://github.com/apps/renovate))
-- Update github/super-linter action to v3.13.5 [\#22](https://github.com/LucasLarson/gunstage/pull/22) ([renovate[bot]](https://github.com/apps/renovate))
-- Update github/super-linter action to v3.13.3 [\#21](https://github.com/LucasLarson/gunstage/pull/21) ([renovate[bot]](https://github.com/apps/renovate))
+- Update actions/cache action to v2.1.3 [\#26](https://github.com/LucasLarson/gunstage/pull/26) ([renovate[bot]](<https://github.com/apps/renovate>))
+- Update actions/checkout action to v2.3.4 [\#23](https://github.com/LucasLarson/gunstage/pull/23) ([renovate[bot]](<https://github.com/apps/renovate>))
+- Update github/super-linter action to v3.13.5 [\#22](https://github.com/LucasLarson/gunstage/pull/22) ([renovate[bot]](<https://github.com/apps/renovate>))
+- Update github/super-linter action to v3.13.3 [\#21](https://github.com/LucasLarson/gunstage/pull/21) ([renovate[bot]](<https://github.com/apps/renovate>))
 - add [automatically generated](./.github/workflows/changelog.yml) changelog workflow [\#20](https://github.com/LucasLarson/gunstage/pull/20) ([LucasLarson](https://github.com/LucasLarson))
 
 ## [v1.2](https://github.com/LucasLarson/gunstage/tree/v1.2) (2020-10-31)
@@ -252,14 +253,14 @@
 
 **Merged pull requests:**
 
-- Update github/super-linter action to v3.13.2 [\#19](https://github.com/LucasLarson/gunstage/pull/19) ([renovate[bot]](https://github.com/apps/renovate))
-- Update ibiqlik/action-yamllint action to v2 [\#17](https://github.com/LucasLarson/gunstage/pull/17) ([renovate[bot]](https://github.com/apps/renovate))
-- Update gaurav-nelson/github-action-markdown-link-check action to v1.0.8 [\#16](https://github.com/LucasLarson/gunstage/pull/16) ([renovate[bot]](https://github.com/apps/renovate))
-- Bump github/super-linter from v3.13.0 to v3.13.1 [\#15](https://github.com/LucasLarson/gunstage/pull/15) ([dependabot[bot]](https://github.com/apps/dependabot))
-- Bump github/super-linter from v3.12.0 to v3.13.0 [\#14](https://github.com/LucasLarson/gunstage/pull/14) ([dependabot[bot]](https://github.com/apps/dependabot))
-- Bump github/super-linter from v3.11.0 to v3.12.0 [\#13](https://github.com/LucasLarson/gunstage/pull/13) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Update github/super-linter action to v3.13.2 [\#19](https://github.com/LucasLarson/gunstage/pull/19) ([renovate[bot]](<https://github.com/apps/renovate>))
+- Update ibiqlik/action-yamllint action to v2 [\#17](https://github.com/LucasLarson/gunstage/pull/17) ([renovate[bot]](<https://github.com/apps/renovate>))
+- Update gaurav-nelson/github-action-markdown-link-check action to v1.0.8 [\#16](https://github.com/LucasLarson/gunstage/pull/16) ([renovate[bot]](<https://github.com/apps/renovate>))
+- Bump github/super-linter from v3.13.0 to v3.13.1 [\#15](https://github.com/LucasLarson/gunstage/pull/15) ([dependabot[bot]](<https://github.com/apps/dependabot>))
+- Bump github/super-linter from v3.12.0 to v3.13.0 [\#14](https://github.com/LucasLarson/gunstage/pull/14) ([dependabot[bot]](<https://github.com/apps/dependabot>))
+- Bump github/super-linter from v3.11.0 to v3.12.0 [\#13](https://github.com/LucasLarson/gunstage/pull/13) ([dependabot[bot]](<https://github.com/apps/dependabot>))
 - remove `docker` URI scheme from Super-Linter configuration [\#12](https://github.com/LucasLarson/gunstage/pull/12) ([LucasLarson](https://github.com/LucasLarson))
-- Configure Renovate [\#10](https://github.com/LucasLarson/gunstage/pull/10) ([renovate[bot]](https://github.com/apps/renovate))
+- Configure Renovate [\#10](https://github.com/LucasLarson/gunstage/pull/10) ([renovate[bot]](<https://github.com/apps/renovate>))
 - add fifth competing syntax for unstaging \(fix \#8\) [\#9](https://github.com/LucasLarson/gunstage/pull/9) ([LucasLarson](https://github.com/LucasLarson))
 
 ## [v1.1](https://github.com/LucasLarson/gunstage/tree/v1.1) (2020-09-29)
@@ -274,8 +275,8 @@
 
 - repair Asciidoc link to Super-Linter results [\#6](https://github.com/LucasLarson/gunstage/pull/6) ([LucasLarson](https://github.com/LucasLarson))
 - `.github` repairs, extensions [\#5](https://github.com/LucasLarson/gunstage/pull/5) ([LucasLarson](https://github.com/LucasLarson))
-- Update actions/checkout requirement to v2.3.3 [\#4](https://github.com/LucasLarson/gunstage/pull/4) ([dependabot[bot]](https://github.com/apps/dependabot))
-- Bump gaurav-nelson/github-action-markdown-link-check from v1.0.7 to 1.0.7 [\#3](https://github.com/LucasLarson/gunstage/pull/3) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Update actions/checkout requirement to v2.3.3 [\#4](https://github.com/LucasLarson/gunstage/pull/4) ([dependabot[bot]](<https://github.com/apps/dependabot>))
+- Bump gaurav-nelson/github-action-markdown-link-check from v1.0.7 to 1.0.7 [\#3](https://github.com/LucasLarson/gunstage/pull/3) ([dependabot[bot]](<https://github.com/apps/dependabot>))
 
 ## [v1.1.2](https://github.com/LucasLarson/gunstage/tree/v1.1.2) (2020-09-22)
 
