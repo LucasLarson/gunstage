@@ -72,10 +72,10 @@ but `gunstage`&nbsp;will.
 
 .Enter
 [source,zsh]
------------------
+----
 gunstage # 🔫 git unstage as a service
 git unstage # 🔫 it just works!
------------------
+----
 Its name is an abbreviation and portmanteau of `git unstage` arising by
 analog from
 https://github.com/ohmyzsh/ohmyzsh/blob/c99f3c50fa46a93be28be88632889404fff3b958/plugins/git/README.md#aliases[Oh&nbsp;My&nbsp;Zsh’s
@@ -99,8 +99,10 @@ plugin^], https://fig.io/plugins/other/gunstage_LucasLarson[installed
 using Fig^], or you can just clone this repository, run the following
 command, and then restart your terminal:
 [source,zsh]
+----
 $ printf '%s\n' '. /path/to/gunstage.plugin.zsh' \
   >>"${HOME%/}"'/.'"${SHELL##*[-./]}"'rc'
+----
 
 Requirements
 ~~~~~~~~~~~~
