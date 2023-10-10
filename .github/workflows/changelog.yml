@@ -109,7 +109,7 @@ jobs:
             --message='update changelog' ||
             exit 0
       - name: Push changes
-        uses: ad-m/github-push-action@v0.6.0
+        uses: ad-m/github-push-action@v0.8.0
         with:
           github_token: ${{ secrets.GITHUB_TOKEN || secrets.PAT }}
           branch: ${{ github.ref }}
