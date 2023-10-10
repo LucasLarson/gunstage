@@ -10,6 +10,7 @@
 
 **Merged pull requests:**
 
+- bump ad-m/github-push-action from v0.6.0 to v0.8.0 [\#131](https://github.com/LucasLarson/gunstage/pull/131) ([renovate[bot]](https://github.com/apps/renovate))
 - bump actions/checkout from 3 to 4 [\#130](https://github.com/LucasLarson/gunstage/pull/130) ([dependabot[bot]](https://github.com/apps/dependabot))
 - repair AsciiDoc code blocks [\#128](https://github.com/LucasLarson/gunstage/pull/128) ([LucasLarson](https://github.com/LucasLarson))
 - ensure `root` `$HOME` expands to `/` [\#127](https://github.com/LucasLarson/gunstage/pull/127) ([LucasLarson](https://github.com/LucasLarson))
