@@ -129,4 +129,5 @@ Credit
 This repository’s
 https://web.archive.org/web/20220120220252/socialsharepreview.com/?url=https%3A%2F%2Fgithub.com%2FLucasLarson%2Fgunstage[preview
 image^] was created by
-https://github.com/twitter/twemoji/blob/7c1d3e9/2/svg/1f52b.svg[Twitter^].
+https://github.com/twitter/twemoji/blob/7c1d3e9/2/svg/1f52b.svg[Twitter^]
+in&nbsp;2018.
