@@ -8,8 +8,13 @@
 
 - add fig installation instructions [\#123](https://github.com/LucasLarson/gunstage/issues/123)
 
+**Closed issues:**
+
+- Twitter [\#132](https://github.com/LucasLarson/gunstage/issues/132)
+
 **Merged pull requests:**
 
+- docs: add creation date to preview-image credit [\#133](https://github.com/LucasLarson/gunstage/pull/133) ([LucasLarson](https://github.com/LucasLarson))
 - bump ad-m/github-push-action from v0.6.0 to v0.8.0 [\#131](https://github.com/LucasLarson/gunstage/pull/131) ([renovate[bot]](https://github.com/apps/renovate))
 - bump actions/checkout from 3 to 4 [\#130](https://github.com/LucasLarson/gunstage/pull/130) ([dependabot[bot]](https://github.com/apps/dependabot))
 - repair AsciiDoc code blocks [\#128](https://github.com/LucasLarson/gunstage/pull/128) ([LucasLarson](https://github.com/LucasLarson))
