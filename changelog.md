@@ -14,6 +14,7 @@
 
 **Merged pull requests:**
 
+- chore\(deps\): bump github/super-linter from v5 to v7 [\#136](https://github.com/LucasLarson/gunstage/pull/136) ([renovate[bot]](https://github.com/apps/renovate))
 - docs: add creation date to preview-image credit [\#133](https://github.com/LucasLarson/gunstage/pull/133) ([LucasLarson](https://github.com/LucasLarson))
 - bump ad-m/github-push-action from v0.6.0 to v0.8.0 [\#131](https://github.com/LucasLarson/gunstage/pull/131) ([renovate[bot]](https://github.com/apps/renovate))
 - bump actions/checkout from 3 to 4 [\#130](https://github.com/LucasLarson/gunstage/pull/130) ([dependabot[bot]](https://github.com/apps/dependabot))
