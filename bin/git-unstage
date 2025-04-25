@@ -36,7 +36,7 @@ gunstage() {
 
     --new)
       # unstage only new files
-      command git diff --cached --diff-filter=A --name-only --relative | while IFS='' read -r file; do
+      command git diff --cached --diff-filter=A --name-only --relative | while IFS='' read -r -- file; do
         command git reset --quiet HEAD -- "${file-}"
       done && command git status
       ;;
@@ -71,10 +71,10 @@ gunstage() {
 
     # if called from outside a Git repository, then
     # provide instructions on how to use it
-    printf 'gunstage must be called from within a Git repository\n' >&2
-    printf 'create a file and a repository, then stage and gunstage:\n
+    printf -- 'gunstage must be called from within a Git repository\n' >&2
+    printf -- 'create a file and a repository, then stage and gunstage:\n
             touch file && # create a file called ' >&2
-    printf '\342\200\234file\342\200\235 \134
+    printf -- '\342\200\234file\342\200\235 \134
             git init && # make a Git repository if necessary \134
             git add file && git status # stage the file you just created
 
