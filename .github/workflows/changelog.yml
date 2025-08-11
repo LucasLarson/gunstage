@@ -12,7 +12,7 @@ jobs:
     timeout-minutes: 4
     if: "!contains(github.event.head_commit.message, 'update changelog')"
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
       - name: Set up Ruby
         uses: ruby/setup-ruby@v1
         with:
