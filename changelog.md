@@ -14,6 +14,7 @@
 
 **Merged pull requests:**
 
+- chore\(deps\): bump actions/checkout from v4 to v5 [\#139](https://github.com/LucasLarson/gunstage/pull/139) ([dependabot[bot]](https://github.com/apps/dependabot))
 - feat: add end-of-options delimiters [\#137](https://github.com/LucasLarson/gunstage/pull/137) ([LucasLarson](https://github.com/LucasLarson))
 - chore\(deps\): bump github/super-linter from v5 to v7 [\#136](https://github.com/LucasLarson/gunstage/pull/136) ([renovate[bot]](https://github.com/apps/renovate))
 - docs: add creation date to preview-image credit [\#133](https://github.com/LucasLarson/gunstage/pull/133) ([LucasLarson](https://github.com/LucasLarson))
