@@ -13,6 +13,12 @@ name: Super-Linter
 on:
   push:
 
+############################
+# Ensure safer permissions #
+############################
+permissions:
+  contents: write
+
 ###############
 # Set the Job #
 ###############
