@@ -16,6 +16,8 @@ jobs:
     if: "!contains(github.event.head_commit.message, 'update changelog')"
     steps:
       - uses: actions/checkout@v5
+        with:
+          persist-credentials: false
       - name: Set up Ruby
         uses: ruby/setup-ruby@v1
         with:
