@@ -15,6 +15,7 @@
 **Merged pull requests:**
 
 - fix: prevent GitHub Actions credential persistence \(artipacked\) [\#145](https://github.com/LucasLarson/gunstage/pull/145) ([LucasLarson](https://github.com/LucasLarson))
+- chore\(deps\): bump super-linter from v7 to v8 [\#144](https://github.com/LucasLarson/gunstage/pull/144) ([dependabot[bot]](https://github.com/apps/dependabot))
 - fix: set GitHub actions permissions to `write` \(CKV2\_GHA\_1\) [\#142](https://github.com/LucasLarson/gunstage/pull/142) ([LucasLarson](https://github.com/LucasLarson))
 - chore\(deps\): bump ad-m/github-push-action from v0.8.0 to v1.0.0 [\#141](https://github.com/LucasLarson/gunstage/pull/141) ([dependabot[bot]](https://github.com/apps/dependabot))
 - chore\(deps\): bump actions/checkout from v4 to v5 [\#139](https://github.com/LucasLarson/gunstage/pull/139) ([dependabot[bot]](https://github.com/apps/dependabot))
