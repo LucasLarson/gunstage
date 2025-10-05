@@ -19,9 +19,7 @@
 
 # enable `git unstage` in addition to `gunstage`
 # by adding `bin` directory to `PATH`
-# without adding an initial colon `:` to `PATH`
-# https://unix.stackexchange.com/a/415028
-PATH="${PATH:+${PATH-}:}$(command dirname "$0")/bin"
+PATH="$(command dirname "$0")/bin${PATH:+:${PATH-}}"
 export PATH
 
 # keep backwards compatibility
