@@ -14,6 +14,7 @@
 
 **Merged pull requests:**
 
+- feat: optimize `$PATH` relationship [\#146](https://github.com/LucasLarson/gunstage/pull/146) ([LucasLarson](https://github.com/LucasLarson))
 - fix: prevent GitHub Actions credential persistence \(artipacked\) [\#145](https://github.com/LucasLarson/gunstage/pull/145) ([LucasLarson](https://github.com/LucasLarson))
 - chore\(deps\): bump super-linter from v7 to v8 [\#144](https://github.com/LucasLarson/gunstage/pull/144) ([dependabot[bot]](https://github.com/apps/dependabot))
 - fix: set GitHub actions permissions to `write` \(CKV2\_GHA\_1\) [\#142](https://github.com/LucasLarson/gunstage/pull/142) ([LucasLarson](https://github.com/LucasLarson))
