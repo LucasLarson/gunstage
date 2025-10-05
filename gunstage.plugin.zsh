@@ -19,8 +19,7 @@
 
 # enable `git unstage` in addition to `gunstage`
 # by adding `bin` directory to `PATH`
-PATH="$(command dirname "$0")/bin${PATH:+:${PATH-}}"
-export PATH
+export PATH="${0%/*}"'/bin'"${PATH:+:${PATH-}}"
 
 # keep backwards compatibility
 alias gunstage='git-unstage'
