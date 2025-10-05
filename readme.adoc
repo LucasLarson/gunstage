@@ -95,9 +95,8 @@ Installation
 ^^^^^^^^^^^^
 `gunstage` can be
 https://gist.github.com/06009589d7887617e061481e22cf5a4a[installed as a
-plugin^], https://fig.io/plugins/other/gunstage_LucasLarson[installed
-using Fig^], or you can just clone this repository, run the following
-command, and then restart your terminal:
+plugin^] or you can just clone this repository, run the following command, and
+then restart your terminal:
 [source,zsh]
 ----
 $ printf '%s\n' '. /path/to/gunstage.plugin.zsh' \
