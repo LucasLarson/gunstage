@@ -19,7 +19,7 @@ jobs:
         with:
           persist-credentials: false
       - name: Set up Ruby
-        uses: ruby/setup-ruby@v1
+        uses: ruby/setup-ruby@v1 # zizmor: ignore[unpinned-uses]
         with:
           ruby-version: 3.1.0
       - name: Install `github_changelog_generator`
@@ -114,7 +114,7 @@ jobs:
             --message='update changelog' ||
             exit 0
       - name: Push changes
-        uses: ad-m/github-push-action@v1.0.0
+        uses: ad-m/github-push-action@v1.0.0 # zizmor: ignore[unpinned-uses]
         with:
           github_token: ${{ secrets.GITHUB_TOKEN || secrets.PAT }}
           branch: ${{ github.ref }}
