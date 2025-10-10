@@ -14,6 +14,7 @@
 
 **Merged pull requests:**
 
+- chore\(deps\): bump ruby from 3.1.0 to 3.4.7 [\#149](https://github.com/LucasLarson/gunstage/pull/149) ([renovate[bot]](https://github.com/apps/renovate))
 - feat: skip Biome formatting [\#148](https://github.com/LucasLarson/gunstage/pull/148) ([LucasLarson](https://github.com/LucasLarson))
 - revert: remove installation with Fig instructions [\#147](https://github.com/LucasLarson/gunstage/pull/147) ([LucasLarson](https://github.com/LucasLarson))
 - feat: optimize `$PATH` relationship [\#146](https://github.com/LucasLarson/gunstage/pull/146) ([LucasLarson](https://github.com/LucasLarson))
