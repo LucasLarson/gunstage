@@ -21,7 +21,7 @@ jobs:
       - name: Set up Ruby
         uses: ruby/setup-ruby@v1 # zizmor: ignore[unpinned-uses]
         with:
-          ruby-version: 3.4.7
+          ruby-version: 3.4.8
       - name: Install `github_changelog_generator`
         run: |
           command gem install github_changelog_generator
