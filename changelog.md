@@ -14,6 +14,7 @@
 
 **Merged pull requests:**
 
+- chore\(deps\): bump ruby from 3.4.7 to 4.0.0 [\#153](https://github.com/LucasLarson/gunstage/pull/153) ([renovate[bot]](https://github.com/apps/renovate))
 - chore\(deps\): bump actions/checkout from v5 to v6 [\#150](https://github.com/LucasLarson/gunstage/pull/150) ([dependabot[bot]](https://github.com/apps/dependabot))
 - chore\(deps\): bump ruby from 3.1.0 to 3.4.7 [\#149](https://github.com/LucasLarson/gunstage/pull/149) ([renovate[bot]](https://github.com/apps/renovate))
 - feat: skip Biome formatting [\#148](https://github.com/LucasLarson/gunstage/pull/148) ([LucasLarson](https://github.com/LucasLarson))
