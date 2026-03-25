@@ -14,6 +14,7 @@
 
 **Merged pull requests:**
 
+- chore\(config\): migrate Renovate configuration [\#155](https://github.com/LucasLarson/gunstage/pull/155) ([renovate[bot]](https://github.com/apps/renovate))
 - chore\(deps\): bump ruby from 4.0.0 to 4.0.2 [\#154](https://github.com/LucasLarson/gunstage/pull/154) ([renovate[bot]](https://github.com/apps/renovate))
 - chore\(deps\): bump ruby from 3.4.7 to 4.0.0 [\#153](https://github.com/LucasLarson/gunstage/pull/153) ([renovate[bot]](https://github.com/apps/renovate))
 - chore\(deps\): bump actions/checkout from v5 to v6 [\#150](https://github.com/LucasLarson/gunstage/pull/150) ([dependabot[bot]](https://github.com/apps/dependabot))
