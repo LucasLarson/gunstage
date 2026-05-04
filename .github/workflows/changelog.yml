@@ -55,7 +55,7 @@ jobs:
                 command xargs basename |
                 command sed -e 's/\.git$//'
             )" \
-            --token ${{ secrets.GITHUB_TOKEN || secrets.PAT }} \
+            --token ${{ secrets.GITHUB_TOKEN }} \
             --exclude-labels 'duplicate,question,invalid,wontfix,nodoc' \
             --output "$(
               command find -- . \
@@ -116,5 +116,5 @@ jobs:
       - name: Push changes
         uses: ad-m/github-push-action@v1.1.0 # zizmor: ignore[unpinned-uses]
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN || secrets.PAT }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
           branch: ${{ github.ref }}
