@@ -14,6 +14,7 @@
 
 **Merged pull requests:**
 
+- chore\(deps\): bump ruby from 4.0.2 to 4.0.5 [\#157](https://github.com/LucasLarson/gunstage/pull/157) ([renovate[bot]](https://github.com/apps/renovate))
 - chore\(deps\): bump ad-m/github-push-action from v1.0.0 to v1.1.0 [\#156](https://github.com/LucasLarson/gunstage/pull/156) ([renovate[bot]](https://github.com/apps/renovate))
 - chore\(config\): migrate Renovate configuration [\#155](https://github.com/LucasLarson/gunstage/pull/155) ([renovate[bot]](https://github.com/apps/renovate))
 - chore\(deps\): bump ruby from 4.0.0 to 4.0.2 [\#154](https://github.com/LucasLarson/gunstage/pull/154) ([renovate[bot]](https://github.com/apps/renovate))
@@ -129,10 +130,6 @@
 - add preferred repository citation [\#107](https://github.com/LucasLarson/gunstage/pull/107) ([LucasLarson](https://github.com/LucasLarson))
 - use `command` to avoid unexpected behavior \(fix \#97\) [\#98](https://github.com/LucasLarson/gunstage/pull/98) ([LucasLarson](https://github.com/LucasLarson))
 - repair Markdown syntax \(fix \#95\) [\#96](https://github.com/LucasLarson/gunstage/pull/96) ([LucasLarson](https://github.com/LucasLarson))
-
-**Closed issues:**
-
-- there’s no attribution for the social media preview image [\#99](https://github.com/LucasLarson/gunstage/issues/99)
 
 **Merged pull requests:**
 
