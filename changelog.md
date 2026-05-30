@@ -14,6 +14,7 @@
 
 **Merged pull requests:**
 
+- chore\(deps\): bump ad-m/github-push-action from v1.1.0 to v1.3.0 [\#158](https://github.com/LucasLarson/gunstage/pull/158) ([renovate[bot]](https://github.com/apps/renovate))
 - chore\(deps\): bump ruby from 4.0.2 to 4.0.5 [\#157](https://github.com/LucasLarson/gunstage/pull/157) ([renovate[bot]](https://github.com/apps/renovate))
 - chore\(deps\): bump ad-m/github-push-action from v1.0.0 to v1.1.0 [\#156](https://github.com/LucasLarson/gunstage/pull/156) ([renovate[bot]](https://github.com/apps/renovate))
 - chore\(config\): migrate Renovate configuration [\#155](https://github.com/LucasLarson/gunstage/pull/155) ([renovate[bot]](https://github.com/apps/renovate))
