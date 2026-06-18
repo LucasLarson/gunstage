@@ -15,7 +15,7 @@ jobs:
     timeout-minutes: 4
     if: "!contains(github.event.head_commit.message, 'update changelog')"
     steps:
-      - uses: actions/checkout@v6 # zizmor: ignore[unpinned-uses]
+      - uses: actions/checkout@v7 # zizmor: ignore[unpinned-uses]
         with:
           persist-credentials: false
       - name: Set up Ruby
